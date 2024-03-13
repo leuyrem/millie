@@ -1,6 +1,58 @@
 @charset "utf-8";
 
 // 헤더
+header {
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    background-color: hsla(0,0%,100%,.9);
+    top: 0;
+}
 
+#topbar {
+    background-color: hsla(0,0%,100%,0);
+    border-bottom: 0.5px solid #dfdfdf; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    position: relative;
+}
+
+.toplogo img {
+    width: 56px;
+    margin: 0.67em 0;
+}
+
+nav {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    // justify-content: space-around;
+    letter-spacing: -.6px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        margin: 24px;
+    }
+
+    font: {
+        weight: 600;
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+        background: #333;
+        border-radius: 100px;
+        padding: 7px 25px;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+    }
+}
 
 // 푸터

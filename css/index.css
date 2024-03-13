@@ -1,3 +1,275 @@
-h1 {
-  color: pink;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+}
+
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 100;
+  src: url(AppleSDGothicNeoT.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 200;
+  src: url(AppleSDGothicNeoUL.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 300;
+  src: url(AppleSDGothicNeoL.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 400;
+  src: url(AppleSDGothicNeoR.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 500;
+  src: url(AppleSDGothicNeoM.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 600;
+  src: url(AppleSDGothicNeoSB.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 700;
+  src: url(AppleSDGothicNeoB.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 800;
+  src: url(AppleSDGothicNeoEB.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 900;
+  src: url(AppleSDGothicNeoH.woff2) format("woff2");
+}
+#wrap {
+  height: 100%;
+}
+
+#mainslider {
+  width: 100%;
+  height: 820px;
+  background: linear-gradient(#f8faff 67.5%, #f0f4ff 0);
+  padding: 64px 0 0;
+}
+
+.textwrap {
+  text-align: center;
+}
+.textwrap h2 {
+  font-size: 49px;
+  margin-bottom: 24px;
+  color: #242424;
+}
+.textwrap p {
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: -0.6px;
+  color: #555;
+}
+
+#box1 {
+  background-color: #ffeb60;
+  padding: 80px 0 70px;
+}
+#box1 .inner {
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow: hidden;
+}
+#box1 .listwrap {
+  max-width: 824px;
+  margin: 0 auto;
+}
+#box1 .cardlist {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding-bottom: 32px;
+  margin-top: 40px;
+}
+#box1 .cardlist li {
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+}
+#box1 .cardlist .titlewrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+#box1 .cardlist .titlewrap .tit {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+#box1 .cardlist .titlewrap .icon img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+#box1 .cardlist p {
+  margin-top: 8px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #555;
+}
+#box1 .cardlist b {
+  color: #6f6f6f;
+}
+#box1 .quotelist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding: 20px 26px 16px;
+  border-radius: 16px;
+  background-color: #ffe04b;
+}
+#box1 .quotelist li {
+  position: relative;
+  padding-left: 15px;
+  color: #aa8525;
+}
+#box1 .quotelist li::before {
+  content: "";
+  position: absolute;
+  top: 7.5px;
+  left: 6px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #aa8525;
+}
+#box1 .quotelist .text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#box2 {
+  background-color: #fff;
+}
+#box2 .inner {
+  padding: 80px 24px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#box2 .slidewrap {
+  margin-top: 80px;
+}
+#box2 .slidewrap .slide {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: 0 0;
+}
+#box2 .slidewrap .f1 {
+  height: 220px;
+  background-image: url(../img/bookslide1.png);
+  background-repeat: repeat-x;
+  background-size: 3000px;
+  margin-top: 50px;
+  animation: slide_left 100s linear infinite;
+}
+#box2 .slidewrap .f2 {
+  height: 220px;
+  background-image: url(../img/bookslide2.png);
+  background-repeat: repeat-x;
+  background-size: 3000px;
+  margin-top: -15px;
+  animation: slide_right 100s linear infinite;
+}
+#box2 .slidewrap .f3 {
+  height: 220px;
+  background-image: url(../img/bookslide3.png);
+  background-repeat: repeat-x;
+  background-size: 3000px;
+  margin-top: -15px;
+  animation: slide_left 100s linear infinite;
+}
+@keyframes slide_left {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -3000px;
+  }
+}
+@keyframes slide_right {
+  from {
+    background-position: -3000px;
+  }
+  to {
+    background-position: 0px;
+  }
+}
+
+#box3 {
+  background-color: #f7f7f7;
+}
+#box3 .inner {
+  padding: 80px 0 120px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#box3 .videowrap {
+  max-width: 730px;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(5px 5px 50px rgba(0, 0, 0, 0.03)) drop-shadow(12px 12px 32px rgba(0, 0, 0, 0.1));
+  position: relative;
+}
+#box3 .videowrap .videoposter {
+  position: relative;
+}
+#box3 .videowrap .videoposter img {
+  width: 100%;
+  height: 100%;
+}
+#box3 .videowrap .videoposter::after {
+  content: "";
+  background: url(https://d3udu241ivsax2.cloudfront.net/v3/images/brand/play-btn.2793db10c08e75f4d3ea5226f19f650b.png);
+  background-size: 56px;
+  position: absolute;
+  height: 56px;
+  translate: -50%, -50%;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
+#box3 .videowrap .iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#box3 .videowrap .iframe video {
+  width: inherit;
+  height: inherit;
 }
