@@ -68,11 +68,42 @@ a {
   height: 100%;
 }
 
-#mainslider {
+#main {
   width: 100%;
   height: 820px;
   background: linear-gradient(#f8faff 67.5%, #f0f4ff 0);
   padding: 64px 0 0;
+}
+#main .inner {
+  position: relative;
+  display: block;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../img/main_bg.png);
+  background-size: 765px;
+  background-repeat: no-repeat;
+  background-position: 96% 55%;
+  overflow: hidden;
+}
+#main .inner .textwrap {
+  margin-top: 88px;
+  padding: 0 48px;
+}
+#main .inner .textwrap h1 {
+  color: transparent;
+  background-image: url(../img/slogan.png);
+  background-repeat: no-repeat;
+  height: 223px;
+  background-size: 346px;
+}
+#main .inner .textwrap p {
+  margin-top: 310px;
+  color: transparent;
+  background-image: url(../img/subtit.png);
+  background-size: 178px;
+  background-repeat: no-repeat;
+  height: 47px;
 }
 
 .textwrap {
@@ -354,16 +385,18 @@ a {
 }
 #box5 .challenge .yellow .sub .sub-2 {
   font-size: 21px;
+  font-weight: 500;
   line-height: 32px;
   margin-top: 12px;
   color: #333;
   white-space: nowrap;
+  text-align: center;
 }
 #box5 .challenge .yellow img {
   width: 100%;
   max-width: 1061px;
 }
-#box5 .board {
+#box5 .cardwrap {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -372,4 +405,61 @@ a {
   padding-bottom: 140px;
   max-width: 1061px;
   width: 100%;
+}
+#box5 .cardwrap .card {
+  width: 327px;
+  height: 416px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+#box5 .cardwrap .card img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+#box6 .bestwrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 74px 0 32px;
+}
+#box6 .select {
+  overflow: hidden;
+}
+#box6 .select .type {
+  padding: 0 24px;
+  cursor: grab;
+  scrollbar-width: none;
+  margin-top: -16px;
+}
+#box6 .select .type ul {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  padding-right: 24px;
+  margin-bottom: 4px;
+  padding-top: 16px;
+}
+#box6 .select .type ul li {
+  margin-left: 8px;
+}
+#box6 .select .type ul li:first-child {
+  margin-left: 0;
+}
+#box6 .select .type ul button {
+  font-size: 14px;
+  font-weight: 500;
+  background: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 6px 16px;
+  display: block;
+  border: 1px solid #242424;
+  border-radius: 100px;
+}
+#box6 .select .type ul button .active {
+  background: #242424;
+  color: #fff;
+}
+#box6 .bestlist {
+  padding-top: 16px;
 }
