@@ -22,17 +22,18 @@ header {
 }
 
 nav {
-  width: 25%;
-  height: 100%;
   display: flex;
   align-items: center;
-  letter-spacing: -0.6px;
   font-weight: 600;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
 }
 nav a {
   display: flex;
   justify-content: center;
-  margin: 24px;
+  margin: 20px;
 }
 nav button {
   border: none;

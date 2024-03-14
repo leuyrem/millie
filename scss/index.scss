@@ -17,6 +17,7 @@
 
 .textwrap {
     text-align: center;
+    margin-bottom: 60px;
 
     h2 {
         font-size: 49px;
@@ -258,3 +259,135 @@
     }
 
 }
+
+#box4 {
+    background-color: #fff;
+
+    .inner {
+        padding: 80px 0 50px;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .librarywrap {
+        margin-top: 80px;
+    }
+
+    .booklist {
+        max-width: 1153px;
+        margin: 32px auto 30px;
+
+        strong {
+            display: block;
+
+            font: {
+                size: 20px;
+                weight: 700;
+            }
+
+            line-height: 28px;
+            margin-bottom: 16px;
+            padding: 0 24px;
+        }
+
+        .books {
+            margin: 0 auto;
+            width: 1159px;
+            height: 351px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 16px;
+
+        }
+
+        .item {
+            width: 145px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .shadow {
+            width: inherit;
+            background: linear-gradient(90deg, var(--ui-05) 25%, var(--ui-05) 37%, var(--ui-05) 63%);
+            border-radius: 0 4px 4px 0;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, .1), 0 0 2px rgba(0, 0, 0, .2);
+        }
+
+        h4 {
+            font-size: 15px;
+        }
+
+        h5 {
+            color: #6f6f6f;
+            font-size: 14px;
+        }
+    }
+}
+
+#box5 {
+    background: #f7f7f7;
+    padding-top: 80px;
+    margin-bottom: 80px;
+
+    .contentwrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .challenge {
+        padding: 0 190px;
+        position: relative;
+
+
+        .yellow {
+            .sub {
+                position: absolute;
+                top: 64px;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+
+                .sub-1 {
+                    font-size: 40px;
+                    line-height: 52px;
+                }
+
+                .sub-2 {
+                    font-size: 21px;
+                    line-height: 32px;
+                    margin-top: 12px;
+                    color: #333;
+                    white-space: nowrap;
+
+                }
+            }
+
+            img {
+                width: 100%;
+                max-width: 1061px;
+            }
+        }
+    }
+
+    .board {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+        padding-bottom: 140px;
+        max-width: 1061px;
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+.floationg {}
