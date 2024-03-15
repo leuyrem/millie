@@ -328,7 +328,6 @@ a {
   font-weight: 700;
   line-height: 28px;
   margin-bottom: 16px;
-  padding: 0 24px;
 }
 #box4 .booklist .books {
   margin: 0 auto;
@@ -456,10 +455,132 @@ a {
   border: 1px solid #242424;
   border-radius: 100px;
 }
-#box6 .select .type ul button .active {
+#box6 .select .type ul button:hover {
   background: #242424;
   color: #fff;
 }
-#box6 .bestlist {
+#box6 .select .bestlist {
+  max-width: 1153px;
+  margin: 32px auto 30px;
+}
+#box6 .select .bestlist .hot {
+  margin: 0 auto;
+  width: 1159px;
+  height: 351px;
+  display: flex;
+  justify-content: space-between;
   padding-top: 16px;
+}
+#box6 .select .bestlist .item {
+  width: 145px;
+}
+#box6 .select .bestlist img {
+  width: 100%;
+}
+#box6 .select .bestlist .shadow {
+  width: inherit;
+  background: linear-gradient(90deg, var(--ui-05) 25%, var(--ui-05) 37%, var(--ui-05) 63%);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), 0 0 2px rgba(0, 0, 0, 0.2);
+}
+#box6 .select .bestlist h4 {
+  font-size: 15px;
+}
+#box6 .select .bestlist h5 {
+  color: #6f6f6f;
+  font-size: 14px;
+}
+#box6 .bestlist:not(:first-of-type) {
+  display: none;
+}
+
+#box7 {
+  background-color: #f7f7f7;
+  padding: 80px 0 0;
+}
+#box7 .inner {
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow: hidden;
+}
+#box7 .read {
+  padding: 0px 24px 0;
+}
+#box7 .read .readwrap {
+  position: relative;
+  max-width: 834px;
+  margin: 0 auto;
+}
+#box7 .read .readwrap .popupwrap .card {
+  position: absolute;
+  max-width: 172px;
+}
+#box7 .read .readwrap .popupwrap .card:first-child {
+  left: -10%;
+  top: 50%;
+}
+#box7 .read .readwrap .popupwrap .card:nth-child(2) {
+  left: 0;
+  top: 12%;
+  position: absolute;
+  max-width: 172px;
+}
+#box7 .read .readwrap .popupwrap .card:nth-child(3) {
+  right: 0;
+  top: 12%;
+  position: absolute;
+  max-width: 172px;
+}
+#box7 .read .readwrap .popupwrap .card:nth-child(4) {
+  right: -10%;
+  top: 50%;
+  position: absolute;
+  max-width: 172px;
+}
+#box7 .read .readwrap .popupwrap .card img {
+  max-width: 100%;
+  vertical-align: top;
+  pointer-events: none;
+  border-style: nones;
+}
+#box7 .read .readwrap .bgwrap {
+  position: relative;
+}
+#box7 .read .readwrap .bgwrap .mock {
+  transform: translate(-50%);
+  left: 50%;
+  position: relative;
+  display: inline-block;
+  max-width: 410px;
+}
+#box7 .read .readwrap .bgwrap .mock img {
+  max-width: 100%;
+  vertical-align: top;
+  border-style: none;
+  pointer-events: none;
+}
+#box7 .read .readwrap .bgwrap .tool {
+  border-radius: 8px;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  min-width: 297px;
+}
+#box7 .read .readwrap .bgwrap .tool img {
+  max-width: 100%;
+  vertical-align: top;
+  border-style: none;
+  pointer-events: none;
+}
+
+#box8 {
+  background-color: #ffeb60;
+}
+#box8 .inner {
+  padding: 80px 2% 100px;
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow: hiddens;
 }

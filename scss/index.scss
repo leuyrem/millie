@@ -324,7 +324,7 @@
 
             line-height: 28px;
             margin-bottom: 16px;
-            padding: 0 24px;
+            // padding: 0 24px;
         }
 
         .books {
@@ -334,7 +334,6 @@
             display: flex;
             justify-content: space-between;
             padding-top: 16px;
-
         }
 
         .item {
@@ -482,7 +481,7 @@
                     border: 1px solid #242424;
                     border-radius: 100px;
 
-                    .active {
+                    &:hover {
                         background: #242424;
                         color: #fff;
                     }
@@ -490,13 +489,160 @@
             }
         }
 
+        .bestlist {
+            max-width: 1153px;
+            margin: 32px auto 30px;
 
+            .hot {
+                margin: 0 auto;
+                width: 1159px;
+                height: 351px;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 16px;
+            }
+    
+            .item {
+                width: 145px;
+            }
+    
+            img {
+                width: 100%;
+            }
+    
+            .shadow {
+                width: inherit;
+                background: linear-gradient(90deg, var(--ui-05) 25%, var(--ui-05) 37%, var(--ui-05) 63%);
+                border-radius: 0 4px 4px 0;
+                box-shadow: 2px 2px 6px rgba(0, 0, 0, .1), 0 0 2px rgba(0, 0, 0, .2);
+            }
+    
+            h4 {
+                font-size: 15px;
+            }
+    
+            h5 {
+                color: #6f6f6f;
+                font-size: 14px;
+            }
+        }
     }
-    .bestlist {
-        padding-top: 16px;
+
+    .bestlist{
+    &:not(:first-of-type) {
+        display: none;
+    }        
+    }
+
+}
+
+#box7 {
+    background-color: #f7f7f7;
+    padding: 80px 0 0;
+
+    .inner {
+        margin: 0 auto;
+        max-width: 1440px;
+        overflow: hidden;
+    }
+
+    .read {
+        padding: 0px 24px 0;
+
+        .readwrap {
+            position: relative;
+            max-width: 834px;
+            margin: 0 auto;
+
+            .popupwrap {
+                .card {
+                    position: absolute;
+                    max-width: 172px;
+
+                    &:first-child {
+                        left: -10%;
+                        top: 50%;
+                    }
+
+                    &:nth-child(2) {
+                        left: 0;
+                        top: 12%;
+                        position: absolute;
+                        max-width: 172px;
+                    }
+
+                    &:nth-child(3) {
+                        right: 0;
+                        top: 12%;
+                        position: absolute;
+                        max-width: 172px;
+                    }
+
+                    &:nth-child(4) {
+                        right: -10%;
+                        top: 50%;
+                        position: absolute;
+                        max-width: 172px;
+                    }
+
+                    img {
+                        max-width: 100%;
+                        vertical-align: top;
+                        pointer-events: none;
+                        border-style: nones;
+                    }
+                }
+            }
+
+            .bgwrap {
+                position: relative;
+
+                .mock {
+                    transform: translate(-50%);
+                    left: 50%;
+                    position: relative;
+                    display: inline-block;
+                    max-width: 410px;
+
+                    img {
+                        max-width: 100%;
+                        vertical-align: top;
+                        border-style: none;
+                        pointer-events: none;
+                    }
+                }
+
+                .tool {
+                    border-radius: 8px;
+                    position: absolute;
+                    top: 49%;
+                    left: 50%;
+                    transform: translate(-50%);
+                    box-shadow: 10px 10px 40px rgba(0,0,0,.1);
+                    min-width: 297px;
+
+                    img {
+                        max-width: 100%;
+                        vertical-align: top;
+                        border-style: none;
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
     }
 }
 
+#box8 {
+    background-color: #ffeb60;
+
+    .inner {
+        padding: 80px 2% 100px;
+        margin: 0 auto;
+        max-width: 1440px;
+        overflow: hiddens;
+    }
+}
 
 
 .floationg {}
