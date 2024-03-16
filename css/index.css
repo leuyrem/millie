@@ -582,5 +582,61 @@ a {
   padding: 80px 2% 100px;
   margin: 0 auto;
   max-width: 1440px;
-  overflow: hiddens;
+  overflow: hidden;
+}
+#box8 .pricewrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+#box8 .pricewrap .pricelist {
+  display: flex;
+  flex-direction: row;
+}
+#box8 .pricewrap .pricelist li {
+  background: #fff;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 32px;
+  width: 327px;
+}
+#box8 .pricewrap .pricelist li:first-child {
+  margin-right: 24px;
+}
+#box8 .pricewrap .pricelist li:first-child strong {
+  font-size: 20px;
+  line-height: 28px;
+}
+#box8 .pricewrap .pricelist li:first-child .month {
+  display: flex;
+  align-items: baseline;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#box8 .pricewrap .pricelist li:first-child .month span {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 130%;
+  margin-right: 6px;
+}
+#box8 .pricewrap .pricelist li:first-child .month p {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 100%;
+  margin-right: 2px;
+}
+#box8 .pricewrap .pricelist li:first-child .month b {
+  font-weight: 700;
+  font-size: 16px;
+  font-line-height: 130%;
+}
+#box8 .pricewrap .pricelist li:first-child .year {
+  margin: 16px 0 24px;
+}
+#box8 .pricewrap .refundlist {
+  margin-left: 35px;
 }

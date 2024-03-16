@@ -28,23 +28,25 @@
         .textwrap {
             margin-top: 88px;
             padding: 0 48px;
-         
+
             h1 {
                 color: transparent;
                 background-image: url(../img/slogan.png);
                 background-repeat: no-repeat;
                 height: 223px;
-                background-size: 346px; 
+                background-size: 346px;
             }
 
             p {
                 margin-top: 310px;
                 color: transparent;
+
                 background: {
                     image: url(../img/subtit.png);
                     size: 178px;
                     repeat: no-repeat;
                 }
+
                 height: 47px;
             }
         }
@@ -396,6 +398,7 @@
                         size: 21px;
                         weight: 500;
                     }
+
                     line-height: 32px;
                     margin-top: 12px;
                     color: #333;
@@ -425,8 +428,8 @@
             width: 327px;
             height: 416px;
             border-radius: 20px;
-            box-shadow: 0 8px 20px rgba(0,0,0,.1),0 2px 8px rgba(0,0,0,.1);
-           
+            box-shadow: 0 8px 20px rgba(0, 0, 0, .1), 0 2px 8px rgba(0, 0, 0, .1);
+
 
             img {
                 max-width: 100%;
@@ -473,6 +476,7 @@
                         size: 14px;
                         weight: 500;
                     }
+
                     background: transparent;
                     overflow: hidden;
                     cursor: pointer;
@@ -501,26 +505,26 @@
                 justify-content: space-between;
                 padding-top: 16px;
             }
-    
+
             .item {
                 width: 145px;
             }
-    
+
             img {
                 width: 100%;
             }
-    
+
             .shadow {
                 width: inherit;
                 background: linear-gradient(90deg, var(--ui-05) 25%, var(--ui-05) 37%, var(--ui-05) 63%);
                 border-radius: 0 4px 4px 0;
                 box-shadow: 2px 2px 6px rgba(0, 0, 0, .1), 0 0 2px rgba(0, 0, 0, .2);
             }
-    
+
             h4 {
                 font-size: 15px;
             }
-    
+
             h5 {
                 color: #6f6f6f;
                 font-size: 14px;
@@ -528,10 +532,10 @@
         }
     }
 
-    .bestlist{
-    &:not(:first-of-type) {
-        display: none;
-    }        
+    .bestlist {
+        &:not(:first-of-type) {
+            display: none;
+        }
     }
 
 }
@@ -618,7 +622,7 @@
                     top: 49%;
                     left: 50%;
                     transform: translate(-50%);
-                    box-shadow: 10px 10px 40px rgba(0,0,0,.1);
+                    box-shadow: 10px 10px 40px rgba(0, 0, 0, .1);
                     min-width: 297px;
 
                     img {
@@ -640,7 +644,86 @@
         padding: 80px 2% 100px;
         margin: 0 auto;
         max-width: 1440px;
-        overflow: hiddens;
+        overflow: hidden;
+    }
+
+    .pricewrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1024px;
+
+        .pricelist {
+            display: flex;
+            flex-direction: row;
+
+            li {
+                background: #fff;
+                box-shadow: 10px 10px 40px rgba(0, 0, 0, .1);
+                border-radius: 16px;
+                padding: 32px;
+                width: 327px;
+
+                &:first-child {
+                    margin-right: 24px;
+
+                    strong {
+                        font-size: 20px;
+                        line-height: 28px;
+                    }
+
+                    .month {
+                        display: flex;
+                        align-items: baseline;
+                        margin-top: 24px;
+
+                        span {
+                            font: {
+                                weight: 300;
+                                size: 24px;
+                            }
+
+                            line-height: 130%;
+                            margin-right: 6px;
+                        }
+
+                        p {
+                            font: {
+                                weight:900;
+                                size: 40px;
+                            }
+                            
+                            line-height: 100%;
+                            margin-right: 2px;
+                        }
+
+                        b {
+                            font: {
+                                weight: 700;
+                                size: 16px;
+                                line-height: 130%;
+                            }
+                        }
+
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;  
+                    }
+
+                    .year {
+                        margin: 16px 0 24px;
+
+                        
+                    }
+                }
+            }
+
+        }
+
+        .refundlist {
+            margin-left: 35px;
+        }
     }
 }
 
