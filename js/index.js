@@ -86,9 +86,8 @@ $(function () {
   $('#box6 li').click(function () {
       let idx = $(this).index();
       $('.hot').hide();
-      $('.hot').eq(idx).fadeIn();
+      $('.hot').eq(idx).fadeIn().css("display","flex");
   });
-
 });
 
 
