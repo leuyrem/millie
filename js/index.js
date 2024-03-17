@@ -87,7 +87,6 @@ $(function () {
       let idx = $(this).index();
       $('.hot').hide();
       $('.hot').eq(idx).fadeIn();
-      // $('.hot:not(:first-of-type)').css("display", "none");
   });
 
 });
