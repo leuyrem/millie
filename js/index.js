@@ -189,3 +189,29 @@ $(function () {
             boxs.eq(i).append("<h5>"+msg.documents[i].publisher+"</h5>");
            }
           });         
+
+
+
+
+//box9
+//tab menu
+  $('.tab li').click(function(){
+    index = $(this).index();
+  
+    $('.tab_sub').eq(index).show().siblings().hide();
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+
+
+  
+
+//swiper
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + (index + 1) + "</span>";
+      },
+    },
+  });
