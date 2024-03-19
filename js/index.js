@@ -1,3 +1,12 @@
+//box3 video
+setInterval(function(){
+  if($(".movie").prop("ended")){
+   
+  }
+},200);
+
+
+
 //box4 
 $.ajax({
   method: "GET",
@@ -198,12 +207,9 @@ $(function () {
   $('.tab li').click(function(){
     index = $(this).index();
   
-    $('.tab_sub').eq(index).show().siblings().hide();
+    $('.tab_sub ').eq(index).show().siblings().hide();
     $(this).addClass("active").siblings().removeClass("active");
   });
-
-
-  
 
 //swiper
   var swiper = new Swiper(".mySwiper", {
@@ -214,4 +220,22 @@ $(function () {
         return '<span class="' + className + '">' + (index + 1) + "</span>";
       },
     },
+    on: {
+      slideChange: function () {
+        let idx = this.activeIndex;
+        console.log(idx);
+        $('.slide-body').eq(idx).fadeIn().siblings().hide();
+      },
+    },
   });
+
+
+//box10 
+//toggle
+  $('.Q').siblings().hide();  
+  $('.Q').click(function () {
+    $(this).find('img').toggleClass('q1');
+      $(this).siblings().slideToggle();
+      
+  });
+
