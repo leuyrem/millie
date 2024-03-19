@@ -424,11 +424,6 @@ a {
 }
 #box6 .select .type ul li {
   margin-left: 8px;
-}
-#box6 .select .type ul li:first-child {
-  margin-left: 0;
-}
-#box6 .select .type ul button {
   font-size: 14px;
   font-weight: 500;
   background: transparent;
@@ -439,8 +434,15 @@ a {
   border: 1px solid #242424;
   border-radius: 100px;
 }
-#box6 .select .type ul button:hover {
+#box6 .select .type ul li:first-child {
+  margin-left: 0;
+}
+#box6 .select .type ul li:hover {
   background: #242424;
+  color: #fff;
+}
+#box6 .select .type ul .active {
+  background-color: #242424;
   color: #fff;
 }
 #box6 .select .bestlist {

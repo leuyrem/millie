@@ -453,10 +453,7 @@
                     &:first-child {
                         margin-left: 0;
                     }
-                }
-
-                button {
-                    font: {
+                  font: {
                         size: 14px;
                         weight: 500;
                     }
@@ -473,6 +470,11 @@
                         background: #242424;
                         color: #fff;
                     }
+                }
+
+                .active {
+                    background-color: #242424;
+                    color: #fff;
                 }
             }
         }

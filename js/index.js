@@ -1,7 +1,6 @@
 //box3 video
 setInterval(function(){
   if($(".movie").prop("ended")){
-   
   }
 },200);
 
@@ -98,6 +97,14 @@ $(function () {
       $('.hot').eq(idx).fadeIn().css("display","flex");
   });
 });
+
+$("#box6 li").click(function(){
+  $("#box6 li").removeClass("active");
+  $(this).addClass("active");
+});
+
+
+
 
 
         $.ajax({
