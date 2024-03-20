@@ -424,8 +424,6 @@ a {
 }
 #box6 .select .type ul li {
   margin-left: 8px;
-  font-size: 14px;
-  font-weight: 500;
   background: transparent;
   overflow: hidden;
   cursor: pointer;
@@ -433,6 +431,8 @@ a {
   display: block;
   border: 1px solid #242424;
   border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
 }
 #box6 .select .type ul li:first-child {
   margin-left: 0;

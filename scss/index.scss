@@ -449,15 +449,6 @@
 
                 li {
                     margin-left: 8px;
-
-                    &:first-child {
-                        margin-left: 0;
-                    }
-                  font: {
-                        size: 14px;
-                        weight: 500;
-                    }
-
                     background: transparent;
                     overflow: hidden;
                     cursor: pointer;
@@ -465,6 +456,15 @@
                     display: block;
                     border: 1px solid #242424;
                     border-radius: 100px;
+
+                    font: {
+                        size: 14px;
+                        weight: 500;
+                    }
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
 
                     &:hover {
                         background: #242424;
