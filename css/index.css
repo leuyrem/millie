@@ -139,7 +139,7 @@ a {
 }
 #box1 .textwrap p {
   transform: translateY(100px);
-  transition: all 2s;
+  transition: all 1.5s;
   opacity: 0;
 }
 #box1 .inner {

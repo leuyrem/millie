@@ -41,7 +41,7 @@ $.ajax({
 $.ajax({
   method: "GET",
   url: "https://dapi.kakao.com/v3/search/book?target=title",
-  data: { query: "칵테일 러브 좀비", size: 1 },
+  data: { query: "고층 입원실의 갱스터 할머니", size: 1 },
   headers: { Authorization: "KakaoAK ef44ea052f79020e3b19027cf5323a28" }
 })
   .done(function (msg) {
