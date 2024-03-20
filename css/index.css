@@ -96,14 +96,20 @@ a {
   background-repeat: no-repeat;
   height: 223px;
   background-size: 346px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #main .inner .textwrap p {
   margin-top: 310px;
   color: transparent;
+  height: 47px;
   background-image: url(../img/subtit.png);
   background-size: 178px;
   background-repeat: no-repeat;
-  height: 47px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 
 .textwrap {
@@ -126,6 +132,16 @@ a {
   background-color: #ffeb60;
   padding: 80px 0 70px;
 }
+#box1 .textwrap h2 {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
+#box1 .textwrap p {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #box1 .inner {
   margin: 0 auto;
   max-width: 1440px;
@@ -142,6 +158,9 @@ a {
   gap: 24px;
   padding-bottom: 32px;
   margin-top: 40px;
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #box1 .cardlist li {
   padding: 32px;
@@ -206,6 +225,11 @@ a {
 #box2 {
   background-color: #fff;
 }
+#box2 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #box2 .inner {
   padding: 80px 24px;
   max-width: 100%;
@@ -265,6 +289,11 @@ a {
 #box3 {
   background-color: #f7f7f7;
 }
+#box3 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #box3 .inner {
   padding: 80px 0 120px;
   max-width: 100%;
@@ -292,6 +321,11 @@ a {
 
 #box4 {
   background-color: #fff;
+}
+#box4 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #box4 .inner {
   padding: 80px 0 50px;
@@ -321,7 +355,7 @@ a {
   justify-content: space-between;
   padding-top: 16px;
 }
-#box4 .booklist .item {
+#box4 .booklist .cover {
   width: 145px;
 }
 #box4 .booklist img {
@@ -345,6 +379,11 @@ a {
   background: #f7f7f7;
   padding-top: 80px;
   margin-bottom: 80px;
+}
+#box5 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #box5 .contentwrap {
   display: flex;
@@ -404,6 +443,11 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 74px 0 32px;
+}
+#box6 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #box6 .select {
   overflow: hidden;
@@ -484,6 +528,11 @@ a {
   background-color: #f7f7f7;
   padding: 80px 0 0;
 }
+#box7 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #box7 .inner {
   margin: 0 auto;
   max-width: 1440px;
@@ -563,6 +612,11 @@ a {
 
 #box8 {
   background-color: #ffeb60;
+}
+#box8 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #box8 .inner {
   padding: 80px 2% 100px;
@@ -693,6 +747,11 @@ a {
   background-color: #f7f7f7;
   position: relative;
 }
+#box9 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
+}
 #box9 .tab_wrap {
   background-color: #fff;
 }
@@ -753,7 +812,7 @@ a {
 #box9 .tab_list .intro .textwrap {
   flex: 1;
   margin-bottom: 30%;
-  min-width: 181px;
+  min-width: 195px;
   text-align: left;
 }
 #box9 .tab_list .intro .textwrap img {
@@ -796,7 +855,7 @@ a {
 }
 #box9 .tab_list .phone .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 102%;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 1;
@@ -834,8 +893,6 @@ a {
   height: 100%;
   text-align: center;
   line-height: 18px;
-  font-size: 14px;
-  font-weight: 500;
   color: #242424;
   opacity: 1;
   margin-right: 5px;
@@ -844,6 +901,8 @@ a {
   display: block;
   border: 1px solid #242424;
   border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
 }
 #box9 .tab_list .swiper-pagination .swiper-pagination-bullet-active {
   color: #fff;
@@ -853,6 +912,11 @@ a {
 #box10 {
   background-color: #f7f7f7;
   padding-top: 160px;
+}
+#box10 .textwrap {
+  transform: translateY(100px);
+  transition: all 2s;
+  opacity: 0;
 }
 #box10 .review-bg {
   background-image: url(../img/review-bg.png);
