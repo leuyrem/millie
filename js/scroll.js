@@ -13,12 +13,12 @@ $('#main h1, #main p').css('transform', 'translateY(0px)').css('opacity', '1');
 $(window).scroll(function () {
     var ws = $(this).scrollTop();
 
-    if (0<ws<800) {
+    if (0<ws<300) {
         $('#main h1, #main p').css("transform", "translateY(0px)").css("opacity", "1");
         $('#box1 .textwrap h2, #box1 .textwrap p, #box1 .cardlist').css("transform", "translateY(200px)").css("opacity", "0");
     }
 
-    if(ws > 800 && ws < 1300){
+    if(ws > 300 && ws < 1300){
         $('#main h1, #main p').css("transform", "translateY(200px)").css("opacity", "0");
         $('#box1 .textwrap h2, #box1 .textwrap p, #box1 .cardlist').css("transform","translateY(0px)").css("opacity","1");
         $('#box2 .textwrap').css("transform", "translateY(200px)").css("opacity", "0");
