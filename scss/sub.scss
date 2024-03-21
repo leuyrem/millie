@@ -61,13 +61,14 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            padding-bottom: 200px;
+            padding-bottom: 240px;
 
             .writer {
                 font-size: 15px;
                 font-weight: 500;
                 line-height: 23px;
                 letter-spacing: -0.01em;
+                margin-bottom: 10px;
             }
 
             .publisher {
@@ -84,7 +85,14 @@
                         font-size: 14px;
                         line-height: 22px;
                         letter-spacing: -0.01em;
-                    }
+
+                        }
+
+                        svg {
+                            width: 20px;
+                            height: 18px;
+                            margin-right: 5px;
+                        }
 
                     .rank {
                         font-size: 13px;
@@ -97,7 +105,17 @@
                 .review_box {
                     width: 328px;
                     height: 112px;
+                    border-radius: 10px;
+                    margin-top: 30px;
+                    overflow: hidden;
+                    position: relative;
                     background-color: pink;
+
+                    .fa-solid {
+                        display: contents;
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
             }
 
