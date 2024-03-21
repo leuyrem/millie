@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+}
+
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 100;
+  src: url(AppleSDGothicNeoT.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 200;
+  src: url(AppleSDGothicNeoUL.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 300;
+  src: url(AppleSDGothicNeoL.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 400;
+  src: url(AppleSDGothicNeoR.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 500;
+  src: url(AppleSDGothicNeoM.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 600;
+  src: url(AppleSDGothicNeoSB.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 700;
+  src: url(AppleSDGothicNeoB.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 800;
+  src: url(AppleSDGothicNeoEB.woff2) format("woff2");
+}
+@font-face {
+  font-family: AppleSDGothicNeo;
+  font-weight: 900;
+  src: url(AppleSDGothicNeoH.woff2) format("woff2");
+}
+#main .inner {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#main .category {
+  cursor: pointer;
+  width: 100%;
+  color: #6f6f6f;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+#main .category img {
+  height: 14px;
+}
+#main .category ul {
+  display: flex;
+}
+#main .category li {
+  padding-bottom: 8px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+}
+#main .category li:first-child {
+  margin-right: 8px;
+}
+#main .category li img {
+  height: 10px;
+  padding-right: 8px;
+}
+#main .main_page {
+  max-width: 1440px;
+  height: 700px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
+#main .main_page .box1 {
+  width: 450px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 200px;
+}
+#main .main_page .box1 .writer {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+}
+#main .main_page .box1 .publisher {
+  margin-bottom: 21px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  vertical-align: middle;
+}
+#main .main_page .box1 .best .tit .week {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+#main .main_page .box1 .best .tit .rank {
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  vertical-align: top;
+}
+#main .main_page .box1 .best .review_box {
+  width: 328px;
+  height: 112px;
+  background-color: pink;
+}
+#main .box2 {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .box2 .text_wrap {
+  display: inline;
+  text-align: center;
+}
+#main .box2 .text_wrap h2 {
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  font-size: 28px;
+  font-weight: 500;
+}
+#main .box2 .book_cover img {
+  margin: 0;
+  width: 400px;
+  vertical-align: top;
+}
+#main .box3 {
+  width: 450px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
