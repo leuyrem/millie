@@ -236,18 +236,24 @@ a {
 #main .box2 .book_cover .turn {
   width: 380px;
   position: relative;
+  top: 0;
+  left: 0;
   transition: 0.5s;
   transform-style: preserve-3d;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 #main .box2 .book_cover .turn img {
   width: 100%;
+  position: absolute;
   top: 0;
   left: 0;
 }
 #main .box2 .book_cover .turn:hover {
   transform: rotateY(35deg);
-  cursor: url(../sub_img/flip.svg), pointer !important;
+  cursor: url(../sub_img/flip.svg), pointer;
+}
+#main .box2 .book_cover .turn.rotate {
+  transform: rotateY(180deg);
 }
 #main .box2 .book_cover .turn::before {
   content: "";
@@ -273,9 +279,6 @@ a {
   background-size: cover;
   background-position: center;
   transform-origin: center;
-  transform: rotateY(180deg) translateZ(30px);
-}
-#main .box2 .book_cover .turn::after:hover {
   transform: rotateY(180deg) translateZ(30px);
 }
 #main .box3 {

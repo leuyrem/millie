@@ -1101,34 +1101,6 @@
                 margin-top: -88px;
                 position: relative;
 
-                .thumbnail {
-
-
-                    img {
-                        position: relative;
-                        width: 100%;
-                        max-width: 515px;
-                        vertical-align: top;
-                        border-style: none;
-                        pointer-events: none;
-                        z-index: 100;
-                    }
-
-                    .btn_player {
-                        content: "";
-                        display: block;
-                        position: absolute;
-                        background-size: cover;
-                        width: 56px;
-                        height: 56px;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        z-index: 100;
-                    }
-                }
-
-
                 .v_player {
                     z-index: 1;
                     position: absolute;

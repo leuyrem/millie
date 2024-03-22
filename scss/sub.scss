@@ -212,20 +212,26 @@
             .turn {
                 width: 380px;
                 position: relative;
+                top: 0;
+                left: 0;
                 transition: 0.5s;
                 transform-style: preserve-3d;
                 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 
                 img {
                     width: 100%;
-                    // position: absolute;
+                    position: absolute;
                     top: 0;
                     left: 0;
                 }
 
                 &:hover {
                     transform: rotateY(35deg);
-                    cursor: url(../sub_img/flip.svg), pointer !important;
+                    cursor: url(../sub_img/flip.svg), pointer;
+                }
+
+                &.rotate{
+                    transform: rotateY(180deg);
                 }
 
                 &::before {
@@ -255,10 +261,6 @@
                     background-position: center;
                     transform-origin: center;
                     transform: rotateY(180deg) translateZ(30px);
-                    
-                    &:hover {
-                        transform: rotateY(180deg) translateZ(30px);
-                    }
                 }
             }
         }
