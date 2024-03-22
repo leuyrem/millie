@@ -311,6 +311,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+#box3 .videowrap .movie video {
+  width: 100%;
+}
 #box3 .videowrap .poster {
   position: absolute;
 }
@@ -576,7 +579,7 @@ a {
   max-width: 100%;
   vertical-align: top;
   pointer-events: none;
-  border-style: nones;
+  border-style: none;
 }
 #box7 .read .readwrap .bgwrap {
   position: relative;
@@ -740,7 +743,7 @@ a {
 #box8 .pricewrap .refundlist li p {
   font-weight: 700;
   font-size: 16px;
-  font-line-height: 22px;
+  line-height: 22px;
 }
 
 #box9 {
@@ -971,6 +974,7 @@ a {
   left: 0;
   top: 0;
   overflow: hidden;
+  border: 0;
 }
 #box10 .review-bg .inner .textwrap {
   padding-top: 80px;
@@ -1011,7 +1015,7 @@ a {
   cursor: pointer;
 }
 #box10 .qna .inner .qnawrap ul li .active {
-  transition: max height 1s;
+  transition: all 1s;
   max-height: 500px;
 }
 #box10 .qna .inner .qnawrap ul li .question {

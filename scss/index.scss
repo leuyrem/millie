@@ -303,7 +303,11 @@
             overflow: hidden;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center; 
+
+            video {
+                width: 100%;
+            }
         }
 
         .poster {
@@ -638,7 +642,7 @@
                         max-width: 100%;
                         vertical-align: top;
                         pointer-events: none;
-                        border-style: nones;
+                        border-style: none;
                     }
                 }
             }
@@ -857,8 +861,8 @@
                     font: {
                         weight: 700;
                         size: 16px;
+                     }    
                         line-height: 22px;
-                    }
                 }
             }
         }
@@ -1137,6 +1141,7 @@
                         left: 0;
                         top: 0;
                         overflow: hidden;
+                        border: 0;
                     }
                 }
             }
@@ -1185,7 +1190,7 @@
                         cursor: pointer;
 
                         .active {
-                            transition: max height 1s;
+                            transition: all 1s;
                             max-height: 500px;
                         }
 

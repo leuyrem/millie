@@ -9,6 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/pop.png">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/sub.css">
+    <script src="https://kit.fontawesome.com/474fd5a1a5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,14 +53,27 @@
                     <div class="publisher">북플레저 · 2024년 03월 04일</div>
                     <div class="best">
                         <div class="tit">
-                            <p class="week"><svg xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path fill="#ffe04b"
-                                        d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6H426.6c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z" />
-                                </svg><b>주간베스트</b></p>
+                            <p class="week"><i class="fa-solid fa-crown" style="color: #ffe04b;"></i><b>주간베스트</b></p>
                             <p class="rank">국내도서 <b>14</b>위 · 인문 <b>4</b>위</p>
                         </div>
                         <div class="review_box">
+                            <div class="left">
+                                <p class="avg"><i class="fa-solid fa-face-grin-stars" style="color: #ffe04b;"></i>9.7
+                                </p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star" style="color: #ffe04b;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ffe04b;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ffe04b;"></i>
+                                    <i class="fa-solid fa-star" style="color: #ffe04b;"></i>
+                                    <i class="fa-solid fa-star-half" style="color: #ffe04b;"></i>
+                                </div>
+                                <p class="add">(45개의 리뷰)</p>
+                            </div>
+                            <div class="right">
+                                <i class="fa-solid fa-quote-left" style="color: #555555;"></i>
+                                <p class="help">도움돼요</p>
+                                <p class="add">(47%의 구매자)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,28 +83,74 @@
                         <p>인생의 절반쯤 왔을 때 깨닫게 되는 것들</p>
                     </div>
                     <div class="book_cover">
-                        <img src="sub_img/cover1.jpg" alt="">
+                        <div class="turn">
+                            <img src="sub_img/cover1.jpg" alt="앞면">
+                        </div>
                     </div>
                 </div>
                 <div class="box3">
-                    <div class="free">
-                        <span>무료배송</span>
-                        <span>소득공제</span>
-                    </div>
+                    <div class="share"><img src="sub_img/share.png" alt="share"></div>
                     <div class="price">
-                        <div class="money"></div>
-                        <div class="point"></div>
-                        <div class="delivery"></div>
-                        <div class="alram"></div>
+                        <div class="money">
+                            <div class="badge">
+                                <span>무료배송</span>
+                                <span>소득공제</span>
+                            </div>
+                            <div class="money_wrap">
+                                <p class="percent">10%</p>
+                                <p class="count">17,820<span>원</span></p>
+                                <p class="sale">19,800원</p>
+                            </div>
+                        </div>
+                        <div class="point">
+                            <p class="benefit">적립/혜택</p>
+                            <p class="stack">990P</p>
+                            <img src="sub_img/more.png" alt="more">
+                        </div>
+                        <div class="delivery">
+                            <div class="line1">
+                                <p class="de1">배송안내</p>
+                                <p class="de2">무료배송</p>
+                                <img src="sub_img/mark.png" alt="mark">
+                            </div>
+                            <div class="line2">
+                                <p class="de3">당일배송</p>
+                                <p class="de4">오늘(3/22,금) 도착</p>
+                                <img src="sub_img/question.png" alt="question">
+                            </div>
+                            <div class="line3">
+                                <p class="address">서울시 종로구 종로 1</p>
+                                <button class="chan">변경<img src="sub_img/arw.png" alt="arw"></button>
+                            </div>
+                        </div>
+                        <div class="alram">
+                            <div class="apply">
+                                <p class="txt">알림 신청하시면 원하시는 정보를 <br>
+                                    받아 보실 수 있습니다.
+                                </p>
+                                <button class="alr"><img src="sub_img/alarm.png" alt="alram">알람신청</button>
+                            </div>
+
+                            <button class="map"><img src="sub_img/locate.png" alt="">매장 재고·위치</button>
+                        </div>
                     </div>
-                    <div class="map"></div>
+
                 </div>
             </div>
         </div>
     </div>
 
     <section id="contents">
-        <div class="bookcard"></div>
+        <div class="sub_top_menu">
+            <ul>
+                <li>상품정보</li>
+                <li>리뷰 (45)</li>
+                <li>교환/반품/품절</li>
+            </ul>
+        </div>
+        <div class="bookcard">
+            <h2>북카드</h2>
+        </div>
         <div class="together"></div>
         <div class="bookinfo"></div>
         <div class="index"></div>
@@ -103,7 +163,30 @@
     </section>
 
 
-    <div id="bottom_tab"></div>
+    <div id="bottom_tab">
+        <div class="tab_inner">
+            <div class="tab_inner_wrap">
+                <div class="contents_wrap">
+                <div class="left_area">
+                    <p class="total">총 상품 금액</p>
+                    <div class="num">
+                        <p class="amout">17,820</p>
+                        <p>원</p>
+                    </div>
+                </div>
+                <div class="right_area">
+                    <div class="heart"><img src="sub_img/heart_black.png" alt="black"></div>
+                    <div class="gift"><img src="sub_img/gift.png" alt="gift"><p class="ing">선물하기</p></div>
+                    <div class="cart">장바구니</div>
+                    <div class="two_btns">
+                        <div class="dream">바로드림</div>
+                        <div class="buy">바로구매</div>
+                    </div>
+                </div>    
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
