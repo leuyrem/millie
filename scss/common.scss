@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "reset", "fonts", "color";
+
 // 헤더
 header {
     position: sticky;
@@ -37,6 +39,10 @@ nav {
         display: flex;
         justify-content: center;
         margin: 20px;
+
+        &:hover {
+            color: $g;
+        }
     }
 
     font: {
@@ -53,6 +59,10 @@ nav {
         line-height: 18px;
         color: #fff;
         text-align: center;
+
+        &:hover {
+            color: $h;
+        }
     }
 }
 
@@ -172,4 +182,8 @@ nav {
     line-height: 24px;
     font-size: 16px;
     min-height: 56px;
+
+    &:hover {
+        color: $h;
+    }
 }
