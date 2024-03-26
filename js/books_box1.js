@@ -75,6 +75,7 @@ $.ajax({
       boxs.eq(i).append("<h5>" + msg.documents[i].publisher + "</h5>");
     }
   });
+  
 $.ajax({
   method: "GET",
   url: "https://dapi.kakao.com/v3/search/book?target=title",

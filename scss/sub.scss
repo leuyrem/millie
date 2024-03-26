@@ -605,37 +605,38 @@
 
 //상세페이지 탭
 .sub_top_menu {
-        width: 100%;
-        border-bottom: 1px solid $q;
-        position: sticky;
-         top: 65px;
-         margin-top: 150px;
-         margin-bottom: 200px;
-        background-color: hsla(0, 0%, 100%, .9);
-        
-        ul {
-            width: 1440px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            height: 65px;
-            margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid $q;
+    position: sticky;
+    top: 65px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: hsla(0, 0%, 100%, .9);
+    z-index: 5;
 
-            li {
-                padding-right: 50px;
-                font-weight: 600;
-                cursor: pointer;
+    ul {
+        width: 1440px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 65px;
+        margin: 0 auto;
 
-                a {
-                    color: $a;
+        li {
+            padding-right: 50px;
+            font-weight: 600;
+            cursor: pointer;
 
-                    &:hover {
-                        color: $g;
-                    }
+            a {
+                color: $a;
+
+                &:hover {
+                    color: $g;
                 }
             }
         }
     }
+}
 
 //상세페이지 컨텐츠
 #contents {
@@ -643,7 +644,104 @@
     width: 1440px;
     margin: 0 auto;
 
-    
+    h2 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .bookcard {
+        height: 100%;
+
+        .swiper {
+            width: 65%;
+            height: 50%;
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: grab;
+
+                img {
+                    display: block;
+                    width: 400px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+            }
+        }
+
+       .swiper-button-next {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            background-color: rgb(51, 51, 51, 0.5);
+            color: #ffffff;
+
+            &:after {
+                font-size: 20px;
+                margin-left: 5px;
+                font-weight: 700;
+            }
+
+            &:hover {
+                background-color: $g;
+            }
+        }
+
+        .swiper-button-prev {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            background-color: rgb(51, 51, 51, 0.5);
+            color: #ffffff;
+
+            &:after {
+                font-size: 20px;
+                margin-right: 5px;
+                font-weight: 700;
+            }
+
+            &:hover {
+                background-color: $g;
+            }
+        }
+    }
+
+    .together {
+
+        .swiper {
+            width: 65%;
+            height: 50%;
+            padding: 36px 30px 40px;
+            background: $e;
+            border-radius: 20px;
+
+            .swiper-slide {
+                font-size: 18px;
+                text-align: left;
+
+                img {
+                    width: 100%;
+                }
+
+                h4 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: $c;
+                }
+            }
+        }
+
+
+
+    }
 
 }
 

@@ -9,6 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/pop.png">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+
     <script src="https://kit.fontawesome.com/474fd5a1a5.js" crossorigin="anonymous"></script>
 </head>
 
@@ -92,7 +95,7 @@
                                 <li>137 * 199 * 27 mm / 573 g</li>
                                 <li>총권수 1권</li>
                             </ul>
-                        
+
                         </div>
                     </div>
                 </div>
@@ -159,23 +162,66 @@
         </div>
     </div>
 
-     <div class="sub_top_menu">
-            <ul>
-                <li><a href="#">상품정보</a></li>
-                <li><a href="#">리뷰 (47)</a></li>
-                <li><a href="#">교환/반품/품절</a></li>
-            </ul>
-        </div>
+    <div class="sub_top_menu">
+        <ul>
+            <li><a href="#">상품정보</a></li>
+            <li><a href="#">리뷰 (47)</a></li>
+            <li><a href="#">교환/반품/품절</a></li>
+        </ul>
+    </div>
+
 
     <section id="contents">
-       
         <div class="bookcard">
             <h2>북카드</h2>
-            <img src="sub_img/card1.jpg" alt="">
-            <img src="sub_img/card1.jpg" alt="">
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="sub_img/card1.jpg" alt="card1">
+                        <img src="sub_img/card2.jpg" alt="card2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="sub_img/card3.jpg" alt="card3">
+                        <img src="sub_img/card4.jpg" alt="card4">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="sub_img/card5.jpg" alt="card5">
+                        <img src="sub_img/card6.jpg" alt="card6">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="sub_img/card7.jpg" alt="card7">
+                        <img src="sub_img/card8.jpg" alt="card8">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="sub_img/card9.jpg" alt="card9">
+                        <img src="sub_img/card10.jpg" alt="card10">
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
         </div>
         <div class="together">
             <h2>함께 구매한 책</h2>
+
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide list1"></div>
+                    <div class="swiper-slide list2"></div>
+                    <div class="swiper-slide list3"></div>
+                    <div class="swiper-slide list4"></div>
+                    <div class="swiper-slide list5"></div>
+                    <div class="swiper-slide list6"></div>
+                    <div class="swiper-slide list7"></div>
+                    <div class="swiper-slide list8"></div>
+                    <div class="swiper-slide list9"></div>
+                    <div class="swiper-slide list10"></div>
+                    <div class="swiper-slide list11"></div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
         </div>
         <div class="poster"></div>
         <div class="bookintro">
@@ -284,8 +330,10 @@
         </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
     <script src="js/sub.js"></script>
+    <script src="js/sub_together.js"></script>
 </body>
 
 </html>
