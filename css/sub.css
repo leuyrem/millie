@@ -601,10 +601,23 @@ a {
   height: auto;
   width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
 }
 #contents h2 {
   font-size: 20px;
   margin: 20px 0;
+}
+#contents .left {
+  width: 1000px;
+  height: 100%;
+  background-color: pink;
+}
+#contents .right {
+  width: 440px;
+  height: 100%;
+  background-color: aqua;
+  padding-left: 35px;
 }
 #contents .bookcard {
   height: 100%;
@@ -679,6 +692,9 @@ a {
 #contents .together .swiper .swiper-slide p {
   font-size: 13px;
   color: #555;
+}
+#contents .event img {
+  border-radius: 16px;
 }
 
 #bottom_tab {

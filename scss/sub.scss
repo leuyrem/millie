@@ -643,12 +643,28 @@
     height: auto;
     width: 1440px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
 
     h2 {
         font-size: 20px;
         margin: 20px 0;
     }
 
+    .left {
+        width: 1000px;
+        height: 100%;
+        background-color: pink;
+    }
+
+    .right {
+        width: 440px;
+        height: 100%;
+        background-color: aqua;
+        padding-left: 35px;
+    }
+
+    // 상세페이지 왼쪽 컨텐츠
     .bookcard {
         height: 100%;
 
@@ -738,9 +754,19 @@
                 }
             }
         }
+    }
 
 
+    //상세페이지 오른쪽 탭
+    .event {
 
+     img{
+       border-radius: 16px;  
+     }
+
+                   
+   
+       
     }
 
 }
