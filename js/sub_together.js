@@ -12,7 +12,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -30,7 +30,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -48,7 +48,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -66,7 +66,8 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
+
         }
     });
 
@@ -84,7 +85,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -102,7 +103,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -120,7 +121,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -138,7 +139,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -156,7 +157,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -174,7 +175,7 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });
 
@@ -192,6 +193,6 @@ $.ajax({
             boxs.eq(i).append("<img src = '" + msg.documents[i].thumbnail + "'/>");
             boxs.eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
             boxs.eq(i).append("<p>" + msg.documents[i].authors + "</p>");
-            boxs.eq(i).append("<p>" + msg.documents[i].publisher + "</p>");
+            boxs.eq(i).append("<p><b>" + msg.documents[i].price + "</b>원</p>");
         }
     });

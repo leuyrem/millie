@@ -641,39 +641,78 @@
 //상세페이지 컨텐츠
 #contents {
     height: auto;
-    width: 1440px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
 
     h2 {
+        width: 814px;
         font-size: 20px;
         margin: 20px 0;
     }
 
     .left {
-        width: 1000px;
+        width: 814px;
         height: 100%;
-        background-color: pink;
+        background-color: palegoldenrod;
     }
 
     .right {
-        width: 440px;
+        width: 386px;
         height: 100%;
-        background-color: aqua;
-        padding-left: 35px;
+        padding-left: 55px;
+        background-color: rgb(248, 202, 218);
+
+        img {
+            border-radius: 16px;
+            width: 330px;
+            margin: 10px 0;
+        }
     }
 
     // 상세페이지 왼쪽 컨텐츠
+    .event {
+        .wrap {
+        display: flex;
+        justify-content: flex-start;
+
+        }
+    
+        .Banner {
+            margin-bottom: 50px;
+            margin-right: 20px;
+
+            p{
+                width: 258px;
+            &:nth-of-type(1) {
+                font-size: 15px;
+                margin: 10px 0;
+            }
+
+            &:nth-of-type(2) {
+                font-size: 13px;
+            }                
+            }
+
+        }
+
+        img {
+            width: 258px;
+            border-radius: 16px;
+        }
+    }
+
     .bookcard {
         height: 100%;
 
         .swiper {
-            width: 65%;
+            width: 105%;
             height: 50%;
+            margin-left: -20px;
+
 
             .swiper-slide {
-                text-align: center;
                 font-size: 18px;
                 background: transparent;
                 display: flex;
@@ -683,14 +722,14 @@
 
                 img {
                     display: block;
-                    width: 400px;
-                    height: 400px;
+                    width: 397px;
+                    height: 397px;
                     object-fit: cover;
                 }
             }
         }
 
-       .swiper-button-next {
+        .swiper-button-next {
             width: 50px;
             height: 50px;
             border-radius: 100px;
@@ -717,7 +756,7 @@
 
             &:after {
                 font-size: 20px;
-                margin-right: 5px;
+
                 font-weight: 700;
             }
 
@@ -728,46 +767,76 @@
     }
 
     .together {
-
         .swiper {
-            width: 65%;
-            height: 50%;
+            width: 814px;
+            height: 413px;
             padding: 36px 30px 40px;
             background: $e;
             border-radius: 20px;
 
+
             .swiper-slide {
                 font-size: 18px;
                 text-align: left;
+                margin-right: 30px !important;
+                padding-bottom: 20px;
+
 
                 img {
-                    width: 100%;
+                    width: 116px;
+                    border: 1px solid $j;
                 }
 
                 h4 {
-                    font-size: 14px;
+                    width: 116px;
+                    font-size: 15px;
+                    line-height: 23px;
+                    margin-top: 8px;
+                    font-weight: 500;
                 }
 
                 p {
+                    width: 116px;
                     font-size: 13px;
                     color: $c;
+
+                    &:nth-of-type(1) {
+                        margin-top: 5px;
+                        margin-bottom: 8px;
+                    }
+
+                    &:nth-of-type(2) {
+                        color: black;
+                    }
                 }
             }
+
+            .swiper-scrollbar {
+                position: absolute;
+                left: 30px;
+                width: 92%;
+                bottom: 40px;
+                z-index: 50;
+                height: 2px;
+                background: rgba(0, 0, 0, 0.06);
+                border-radius: 2px;
+                overflow: hidden;
+
+                .swiper-scrollbar-drag {
+                    width: 200px !important;
+                    transform: translate3d(0px, 0px, 0px);
+                    transition-duration: 0ms;
+                }
+            }
+
         }
     }
 
 
     //상세페이지 오른쪽 탭
-    .event {
+    .fieldtop {}
 
-     img{
-       border-radius: 16px;  
-     }
-
-                   
-   
-       
-    }
+    .newBook {}
 
 }
 

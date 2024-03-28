@@ -12,14 +12,22 @@ var swiper = new Swiper(".mySwiper1", {
     },
 });
 
+$('.mySwiper1').mouseover(function(){
+    $('.btn').stop().fadeIn();
+}).mouseout(function(){
+    $('.btn').stop().hide();
+});
+
+
+
 //together
 var swiper2 = new Swiper(".mySwiper2", {
-    slidesPerView: 4,
-    centeredSlides: true,
-    spaceBetween: 30,
+    slidesPerView: 6,
+    // centeredSlides: true,
+    spaceBetween: 20,
     grabCursor: true,
     scrollbar: {
         el: ".swiper-scrollbar",
-        hide: true,
     },
 });
+
