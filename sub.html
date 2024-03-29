@@ -42,7 +42,7 @@
         <div class="inner">
             <div class="category">
                 <ul>
-                    <li><img src="sub_img/home.png" alt=""></li>
+                    <li><img src="sub_img/home.png" alt="home"></li>
                     <li>국내도서 <img src="img/right-arr.png" alt="arr"> </li>
                     <li>인문 <img src="img/right-arr.png" alt="arr"> </li>
                     <li>인문학일반 <img src="img/right-arr.png" alt="arr"> </li>
@@ -171,12 +171,12 @@
         </ul>
     </div>
 
-
     <section id="contents">
         <!-- 상세페이지 왼쪽 컨텐츠 -->
         <div class="left">
             <div class="event">
                 <h2>이 책의 이벤트</h2>
+                <p class="add">해외주문/바로드림/제휴사주문/업체배송건의 경우 1+1 증정상품이 발송되지 않습니다.</p>
                 <div class="wrap">
                     <div class="Banner">
                         <img src="sub_img/event2.jpg" alt="event2">
@@ -240,31 +240,52 @@
                     <div class="swiper-scrollbar"></div>
                 </div>
             </div>
-            <div class="poster"></div>
+            <div class="poster">
+                <img src="sub_img/poster.png" alt="poster">
+            </div>
             <div class="bookintro">
                 <h2>책 소개</h2>
+                <div class="b_Intro">
+                    <p class="sub_tit">이 책이 속한 분야</p>
+                    <ul>
+                        <li>국내도서 <img src="img/right-arr.png" alt="arr"> </li>
+                        <li>인문 <img src="img/right-arr.png" alt="arr"> </li>
+                        <li>인문학일반 <img src="img/right-arr.png" alt="arr"> </li>
+                        <li>인문교양</li>
+                    </ul>
+                </div>
+                <div class="txt1Wrap"></div>
             </div>
             <div class="writer">
                 <h2>작가정보</h2>
+                <div class="txt2Wrap"></div>
             </div>
             <div class="index">
                 <h2>목차</h2>
+                <div class="txt3Wrap"></div>
+                <img src="sub_img/more.png" alt="more" class="more">
             </div>
             <div class="recommend">
                 <h2>추천사</h2>
+                <div class="txt4Wrap"></div>
             </div>
             <div class="bookin">
                 <h2>책 속으로</h2>
+                <div class="txt5Wrap"></div>
             </div>
             <div class="publisher">
                 <h2>출판사 서평</h2>
+                <div class="txt6Wrap"></div>
             </div>
 
             <div class="review">
                 <h2>리뷰 (47)</h2>
             </div>
-            <div class="review">
+            <div class="infomation">
                 <h2>교환/반품/품절 안내</h2>
+                <button class="lbtn">반품/교환 신청</button>
+                <button class="rbtn"><img src="sub_img/inquiry.png" alt="inquiry">1:1 문의</button>
+                <div class="txt7Wrap"></div>
             </div>
         </div>
 
@@ -273,10 +294,12 @@
         <div class="right">
             <div class="fieldtop">
                 <h2>이 분야의 베스트</h2>
+                <div class="booklist1"></div>
             </div>
             <img src="sub_img/ad1.png" alt="ad1">
             <div class="newBook">
                 <h2>이 분야의 신간</h2>
+                <div class="booklist2"></div>
                 <img src="sub_img/ad2.jpg" alt="ad2">
                 <img src="sub_img/ad3.jpg" alt="ad3">
             </div>
@@ -311,8 +334,7 @@
         </div>
     </div>
 
-
-
+    
 
 
 
@@ -365,7 +387,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
     <script src="js/sub.js"></script>
-    <script src="js/sub_together.js"></script>
+    <script src="js/sub_together_ajax.js"></script>
+    <script src="js/sub_right_tab_ajax.js"></script>
 </body>
 
 </html>

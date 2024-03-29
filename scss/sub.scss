@@ -655,14 +655,12 @@
     .left {
         width: 814px;
         height: 100%;
-        background-color: palegoldenrod;
     }
 
     .right {
         width: 386px;
         height: 100%;
         padding-left: 55px;
-        background-color: rgb(248, 202, 218);
 
         img {
             border-radius: 16px;
@@ -671,30 +669,53 @@
         }
     }
 
+    .rotate {
+        transform: scaleY(-1);
+    }
+
     // 상세페이지 왼쪽 컨텐츠
     .event {
-        .wrap {
-        display: flex;
-        justify-content: flex-start;
+        position: relative;
 
+        .add {
+            font-size: 13px;
+            color: $c;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            &:before {
+            content: "*";
+            color: $m;
+            position: absolute;
+            left: -10px;
+            top: 2px;
+            }    
         }
     
+        
+
+        .wrap {
+            display: flex;
+            justify-content: flex-start;
+        }
+
         .Banner {
             margin-bottom: 50px;
             margin-right: 20px;
 
-            p{
+            p {
                 width: 258px;
-            &:nth-of-type(1) {
-                font-size: 15px;
-                margin: 10px 0;
-            }
 
-            &:nth-of-type(2) {
-                font-size: 13px;
-            }                
-            }
+                &:nth-of-type(1) {
+                    font-size: 15px;
+                    margin: 10px 0;
+                }
 
+                &:nth-of-type(2) {
+                    font-size: 13px;
+                }
+            }
         }
 
         img {
@@ -705,12 +726,12 @@
 
     .bookcard {
         height: 100%;
+        margin-bottom: 50px;
 
         .swiper {
             width: 105%;
             height: 50%;
             margin-left: -20px;
-
 
             .swiper-slide {
                 font-size: 18px;
@@ -756,7 +777,6 @@
 
             &:after {
                 font-size: 20px;
-
                 font-weight: 700;
             }
 
@@ -767,6 +787,8 @@
     }
 
     .together {
+        margin-bottom: 50px;
+
         .swiper {
             width: 814px;
             height: 413px;
@@ -774,13 +796,11 @@
             background: $e;
             border-radius: 20px;
 
-
             .swiper-slide {
                 font-size: 18px;
                 text-align: left;
                 margin-right: 30px !important;
                 padding-bottom: 20px;
-
 
                 img {
                     width: 116px;
@@ -828,15 +848,397 @@
                     transition-duration: 0ms;
                 }
             }
+        }
+    }
+
+    .poster {
+        margin-top: 80px;
+
+        img {
+        border-radius: 20px;            
+        }
+
+    }
+
+    .bookintro {
+        .b_Intro {
+            border-bottom: 1px solid $j;
+
+            .sub_tit {
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                display: flex;
+                margin-bottom: 40px;
+                color: $c;
+            }
+
+            li {
+                line-height: 19px;
+                letter-spacing: -0.01em;
+                font-size: 14px;
+
+                img {
+                    height: 10px;
+                    padding-right: 8px;
+                }
+            }
+        }
+
+        .txt1Wrap {
+            font-size: 15px;
+            margin-top: 30px;
+            margin-bottom: 60px;
+
+            ul {
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: $c;
+            }
+        }
+    }
+
+    .writer {
+        margin-bottom: 60px;
+
+        .txt2Wrap {
+            position: relative;
+
+            .person {
+                width: 100%;
+                padding: 36px 30px 40px 30px;
+                border-radius: 20px;
+                background-color: $e;
+                margin-bottom: 20px;
+            }
+
+            .name {
+                margin-bottom: 20px;
+                color: #000;
+                font-size: 16px;
+
+                img {
+                    width: 18px;
+                    margin-left: 8px;
+                }
+            }
+
+            span {
+                margin: 4px 3px;
+                display: inline-block;
+                font-size: 13px;
+                line-height: 19px;
+                letter-spacing: -0.01em;
+                padding: 7px 16px 8px;
+                border-radius: 20px;
+                color: $c;
+                background-color: $f;
+                border: 1px solid $f;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 15px;
+                color: $c;
+            }
+
+            button {
+                float: right;
+                margin-top: -50px;
+                margin-right: 5px;
+                display: flex;
+                align-items: center;
+                background: $f;
+                border: 1px solid $l;
+                height: 30px;
+                padding: 0 9px 1px;
+                border-radius: 4px;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: -0.01em;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: $o;
+                }
+
+                img {
+                    width: 14px;
+                    top: 10px;
+                    margin-right: 3px;
+
+                }
+            }
+        }
+    }
+
+    .index {
+        padding-bottom: 60px;
+        border-bottom: 1px solid $j;
+
+        .txt3Wrap {
+            color: $c;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+        }
+    }
+
+    .recommend {
+        padding-bottom: 60px;
+        border-bottom: 1px solid $j;
+
+        .txt4Wrap {
+            font-size: 15px;
+
+            span {
+                color: $m;
+            }
+
+            p {
+                color: $c;
+                margin-top: 13px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .bookin {
+        padding-bottom: 60px;
+        border-bottom: 1px solid $j;
+
+        .txt5Wrap {
+            font-size: 15px;
+            color: $c;
+        }
+    }
+
+    .publisher {
+        padding-bottom: 60px;
+        border-bottom: 1px solid $j;
+
+        .txt6Wrap {
+            font-size: 15px;
+            color: $c;
+
+            .letter {
+                text-align: justify;
+            }
+        }
+    }
+
+    .review {
+        padding-bottom: 60px;
+    }
+
+    .infomation {
+        position: relative;
+
+        .lbtn {
+            position: absolute;
+            top: 0;
+            right: 100px;
+            color: #000;
+            background: $f;
+            border: 1px solid $l;
+            height: 38px;
+            padding: 0 13px 1px;
+            border-radius: 6px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $o;
+            }
+        }
+
+        .rbtn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 13px;
+            color: $f;
+            border: 1px solid $g;
+            background-color: $g;
+            height: 38px;
+            padding: 0 13px 1px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 17px;
+                height: 15px;
+                margin-right: 3px;
+            }
+
+            &:hover {
+                border: 1px solid #85671d;                
+                background-color: #85671d;
+            }
+            
+        }
+
+        .txt7Wrap {
+
+            .info {
+                padding: 30px 0;
+                border-top: 1px solid $j;
+
+                &:first-child {
+                    border-top: 1px solid #000;
+                }
+            }
+
+            h5 {
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 14px;
+
+            }
+
+            .graybox {
+                margin-bottom: 60px;
+                font-size: 13px;
+                color: $c;
+                padding: 24px 0;
+                background-color: $e;
+                border-radius: 10px;
+                position: relative;
+                padding-left: 30px;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: 20px;
+                    top: 32px;
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 50%;
+                    background-color: #999;
+                }
+            }
+        }
+
+    }
+
+
+
+    //상세페이지 오른쪽 탭
+    .fieldtop {
+        margin-bottom: 20px;
+
+        .bestBook {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            img {
+                width: 98px;
+                height: 145px;
+                border: 1px solid $j;
+                border-radius: 0px;
+            }
+        }
+
+        .listWrap {
+            margin-left: 20px;
+            
+          h5 {
+            font-size: 15px;
+            line-height: 23px;
+            letter-spacing: -0.01em;
+            font-weight: 500;
+          }
+
+          .pub {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 19px;
+            color: $c;
+          }
+
+          .list_price {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 19px;
+            color: #000;
+            
+          }
+
+          .sale {
+            margin-top: 5px;
+            margin-right: 6px;
+            font-size: 13px;
+            line-height: 19px;
+            color: $m; 
+            float: left;
+            font-weight: 700;
+          }
 
         }
     }
 
+    .newBook {
+        margin-bottom: 20px;
 
-    //상세페이지 오른쪽 탭
-    .fieldtop {}
+        .brandNew {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
 
-    .newBook {}
+            img {
+                width: 98px;
+                height: 145px;
+                border: 1px solid $j;
+                border-radius: 0px;
+            }
+        }
+
+        .listWrap {
+            margin-left: 20px;
+            
+          h5 {
+            font-size: 15px;
+            line-height: 23px;
+            letter-spacing: -0.01em;
+            font-weight: 500;
+          }
+
+          .pub {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 19px;
+            color: $c;
+          }
+
+          .list_price {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 19px;
+            color: #000;
+          }
+
+          .sale {
+            margin-top: 5px;
+            margin-right: 6px;
+            font-size: 13px;
+            line-height: 19px;
+            color: $m; 
+            float: left;
+            font-weight: 700;
+          }
+        }
+    }
 
 }
 

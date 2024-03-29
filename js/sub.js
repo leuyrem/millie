@@ -19,7 +19,6 @@ $('.mySwiper1').mouseover(function(){
 });
 
 
-
 //together
 var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 6,
@@ -31,3 +30,40 @@ var swiper2 = new Swiper(".mySwiper2", {
     },
 });
 
+//more
+// $('.index').stop().hide();
+// $('.more').click(function () {
+//   $(this).find('.more').toggleClass('rotate');
+//   $(this).siblings().slideToggle();
+// });
+
+
+
+//txt
+$.get("./sub_txt/txt1.txt", function (data) {
+    $(".txt1Wrap").html(data);
+});
+
+$.get("./sub_txt/txt2.txt", function (data) {
+    $(".txt2Wrap").html(data);
+});
+
+$.get("./sub_txt/txt3.txt", function (data) {
+    $(".txt3Wrap").html(data);
+});
+
+$.get("./sub_txt/txt4.txt", function (data) {
+    $(".txt4Wrap").html(data);
+});
+
+$.get("./sub_txt/txt5.txt", function (data) {
+    $(".txt5Wrap").html(data);
+});
+
+$.get("./sub_txt/txt6.txt", function (data) {
+    $(".txt6Wrap").html(data);
+});
+
+$.get("./sub_txt/txt7.txt", function (data) {
+    $(".txt7Wrap").html(data);
+});

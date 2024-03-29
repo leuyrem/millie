@@ -612,18 +612,36 @@ a {
 #contents .left {
   width: 814px;
   height: 100%;
-  background-color: palegoldenrod;
 }
 #contents .right {
   width: 386px;
   height: 100%;
   padding-left: 55px;
-  background-color: rgb(248, 202, 218);
 }
 #contents .right img {
   border-radius: 16px;
   width: 330px;
   margin: 10px 0;
+}
+#contents .rotate {
+  transform: scaleY(-1);
+}
+#contents .event {
+  position: relative;
+}
+#contents .event .add {
+  font-size: 13px;
+  color: #555;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#contents .event .add:before {
+  content: "*";
+  color: #474c98;
+  position: absolute;
+  left: -10px;
+  top: 2px;
 }
 #contents .event .wrap {
   display: flex;
@@ -649,6 +667,7 @@ a {
 }
 #contents .bookcard {
   height: 100%;
+  margin-bottom: 50px;
 }
 #contents .bookcard .swiper {
   width: 105%;
@@ -698,6 +717,9 @@ a {
 }
 #contents .bookcard .swiper-button-prev:hover {
   background-color: #aa8525;
+}
+#contents .together {
+  margin-bottom: 50px;
 }
 #contents .together .swiper {
   width: 814px;
@@ -751,6 +773,321 @@ a {
   transform: translate3d(0px, 0px, 0px);
   transition-duration: 0ms;
 }
+#contents .poster {
+  margin-top: 80px;
+}
+#contents .poster img {
+  border-radius: 20px;
+}
+#contents .bookintro .b_Intro {
+  border-bottom: 1px solid #eaeaea;
+}
+#contents .bookintro .b_Intro .sub_tit {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#contents .bookintro .b_Intro ul {
+  display: flex;
+  margin-bottom: 40px;
+  color: #555;
+}
+#contents .bookintro .b_Intro li {
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  font-size: 14px;
+}
+#contents .bookintro .b_Intro li img {
+  height: 10px;
+  padding-right: 8px;
+}
+#contents .bookintro .txt1Wrap {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+#contents .bookintro .txt1Wrap ul {
+  margin-bottom: 20px;
+}
+#contents .bookintro .txt1Wrap p {
+  color: #555;
+}
+#contents .writer {
+  margin-bottom: 60px;
+}
+#contents .writer .txt2Wrap {
+  position: relative;
+}
+#contents .writer .txt2Wrap .person {
+  width: 100%;
+  padding: 36px 30px 40px 30px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+#contents .writer .txt2Wrap .name {
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 16px;
+}
+#contents .writer .txt2Wrap .name img {
+  width: 18px;
+  margin-left: 8px;
+}
+#contents .writer .txt2Wrap span {
+  margin: 4px 3px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  padding: 7px 16px 8px;
+  border-radius: 20px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+#contents .writer .txt2Wrap p {
+  font-size: 15px;
+  color: #555;
+}
+#contents .writer .txt2Wrap button {
+  float: right;
+  margin-top: -50px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  height: 30px;
+  padding: 0 9px 1px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+#contents .writer .txt2Wrap button:hover {
+  background-color: #f2f2f2;
+}
+#contents .writer .txt2Wrap button img {
+  width: 14px;
+  top: 10px;
+  margin-right: 3px;
+}
+#contents .index {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eaeaea;
+}
+#contents .index .txt3Wrap {
+  color: #555;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+#contents .recommend {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eaeaea;
+}
+#contents .recommend .txt4Wrap {
+  font-size: 15px;
+}
+#contents .recommend .txt4Wrap span {
+  color: #474c98;
+}
+#contents .recommend .txt4Wrap p {
+  color: #555;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+#contents .bookin {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eaeaea;
+}
+#contents .bookin .txt5Wrap {
+  font-size: 15px;
+  color: #555;
+}
+#contents .publisher {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eaeaea;
+}
+#contents .publisher .txt6Wrap {
+  font-size: 15px;
+  color: #555;
+}
+#contents .publisher .txt6Wrap .letter {
+  text-align: justify;
+}
+#contents .review {
+  padding-bottom: 60px;
+}
+#contents .infomation {
+  position: relative;
+}
+#contents .infomation .lbtn {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #ccc;
+  height: 38px;
+  padding: 0 13px 1px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#contents .infomation .lbtn:hover {
+  background-color: #f2f2f2;
+}
+#contents .infomation .rbtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid #aa8525;
+  background-color: #aa8525;
+  height: 38px;
+  padding: 0 13px 1px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#contents .infomation .rbtn img {
+  width: 17px;
+  height: 15px;
+  margin-right: 3px;
+}
+#contents .infomation .rbtn:hover {
+  border: 1px solid #85671d;
+  background-color: #85671d;
+}
+#contents .infomation .txt7Wrap .info {
+  padding: 30px 0;
+  border-top: 1px solid #eaeaea;
+}
+#contents .infomation .txt7Wrap .info:first-child {
+  border-top: 1px solid #000;
+}
+#contents .infomation .txt7Wrap h5 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+#contents .infomation .txt7Wrap p {
+  font-size: 14px;
+}
+#contents .infomation .txt7Wrap .graybox {
+  margin-bottom: 60px;
+  font-size: 13px;
+  color: #555;
+  padding: 24px 0;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 30px;
+}
+#contents .infomation .txt7Wrap .graybox:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 32px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #999;
+}
+#contents .fieldtop {
+  margin-bottom: 20px;
+}
+#contents .fieldtop .bestBook {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+#contents .fieldtop .bestBook img {
+  width: 98px;
+  height: 145px;
+  border: 1px solid #eaeaea;
+  border-radius: 0px;
+}
+#contents .fieldtop .listWrap {
+  margin-left: 20px;
+}
+#contents .fieldtop .listWrap h5 {
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+#contents .fieldtop .listWrap .pub {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #555;
+}
+#contents .fieldtop .listWrap .list_price {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000;
+}
+#contents .fieldtop .listWrap .sale {
+  margin-top: 5px;
+  margin-right: 6px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #474c98;
+  float: left;
+  font-weight: 700;
+}
+#contents .newBook {
+  margin-bottom: 20px;
+}
+#contents .newBook .brandNew {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+#contents .newBook .brandNew img {
+  width: 98px;
+  height: 145px;
+  border: 1px solid #eaeaea;
+  border-radius: 0px;
+}
+#contents .newBook .listWrap {
+  margin-left: 20px;
+}
+#contents .newBook .listWrap h5 {
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+#contents .newBook .listWrap .pub {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #555;
+}
+#contents .newBook .listWrap .list_price {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000;
+}
+#contents .newBook .listWrap .sale {
+  margin-top: 5px;
+  margin-right: 6px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #474c98;
+  float: left;
+  font-weight: 700;
+}
+
 #bottom_tab {
   width: 100%;
   position: relative;

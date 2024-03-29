@@ -1,0 +1,36 @@
+<div class="person">
+    <p class="name">저자(글) <b>리처드 J. 라이더</b><img src="sub_img/heart.png" alt="heart"></p>
+    <button><img src="sub_img/writer_info.png" alt="info">인물정보</button>
+    <span>자기계발/리더십컨설턴트</span>
+    <p>Richard J. Leider
+        미국의 전설적인 상담전문가, 자기계발 코치이자 베스트셀러 작가. 목적의 힘을 발휘하고 그 질문에 답할 수 있도록 돕는 것을 사명으로 하는 〈Inventure-The Purpose Company〉의
+        창립자이며 《포브스》 선정
+        ‘가장 존경받는 코치 Top 5’중 한 명으로 선정되었다. 《마음이 가리키는 곳으로 가라》 《이제 당신은 무엇을 할 것인가》 《파도치는 인생에서 다시 길을 찾는 법》을 비롯해 다수의 책을 펴냈다.
+    </p>
+</div>
+
+<div class="person">
+    <p class="name">저자(글) <b>데이비드 A. 샤피로</b><img src="sub_img/heart.png" alt="heart"></p>
+    <button><img src="sub_img/writer_info.png" alt="info">인물정보</button>
+    <span>자기계발/리더십컨설턴트</span>
+    <p>David A. Shapiro
+        기업이나 조직을 위해 사람이 기계의 부속품 이상의 가치 있는 존재가 되도록 도와주는 프로그램을 개발했다. ‘첨단 기술’과 ‘멋진 삶’을 융합시킬 방법을 모색하는 프로젝트를 주관했다. 이 책을 출간한 후
+        미국에서 새로운 시작을 위한 ‘가방 다시 꾸리기(Repacking Your Bags) 운동’을 펼쳤다.
+    </p>
+</div>
+
+<div class="person">
+    <p class="name">번역 <b>김정홍</b><img src="sub_img/heart.png" alt="heart"></p>
+    <button><img src="sub_img/writer_info.png" alt="info">인물정보</button>
+    <span>번역가/통역사＞영어</span>
+    <span>출판인/발행인</span>
+    <p>출판 기획과 집필을 주로 하고 있으며, 방송 다큐멘터리 작가로 왕성한 활동을 펼치고 있다. 옮긴 책으로는 《마음이 가리키는 곳으로 가라》가 있다.</p>
+</div>
+
+
+
+
+
+
+
+
