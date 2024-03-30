@@ -919,7 +919,73 @@ a {
   text-align: justify;
 }
 #contents .review {
+  margin-top: 60px;
   padding-bottom: 60px;
+  position: relative;
+}
+#contents .review button {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  height: 38px;
+  padding: 0 13px 1px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #fff;
+  background: #aa8525;
+  border: 1px solid #aa8525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contents .review button img {
+  width: 14px;
+  height: 18px;
+  margin-right: 3px;
+}
+#contents .review button:hover {
+  border: 1px solid #85671d;
+  background-color: #85671d;
+}
+#contents .review .grayBox {
+  margin-bottom: 30px;
+  background-color: #f7f7f7;
+  border: 1px solid #d5d5d5;
+  border-radius: 20px;
+  padding: 35px 49px;
+  display: flex;
+}
+#contents .review .avg {
+  width: 50%;
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contents .review .responive {
+  width: 50%;
+  height: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contents .review .responive span {
+  font-weight: 700;
+  color: #474c98;
+  position: relative;
+}
+#contents .review .responive span:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url(../sub_img/quotes.png) 0% 0% no-repeat;
+  background-size: 16px 16px;
 }
 #contents .infomation {
   position: relative;
@@ -1001,6 +1067,16 @@ a {
 }
 #contents .fieldtop {
   margin-bottom: 20px;
+  position: relative;
+}
+#contents .fieldtop .add {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
 }
 #contents .fieldtop .bestBook {
   display: flex;
@@ -1015,6 +1091,22 @@ a {
 }
 #contents .fieldtop .listWrap {
   margin-left: 20px;
+}
+#contents .fieldtop .listWrap span {
+  color: #fff;
+  background: #ffe04b;
+  border: 1px solid #ffe04b;
+  width: 20px;
+  padding: 3px 2px 2px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 6px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 5px;
 }
 #contents .fieldtop .listWrap h5 {
   font-size: 15px;
@@ -1045,6 +1137,16 @@ a {
 }
 #contents .newBook {
   margin-bottom: 20px;
+  position: relative;
+}
+#contents .newBook .add {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
 }
 #contents .newBook .brandNew {
   display: flex;

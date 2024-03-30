@@ -685,15 +685,15 @@
             right: 0;
 
             &:before {
-            content: "*";
-            color: $m;
-            position: absolute;
-            left: -10px;
-            top: 2px;
-            }    
+                content: "*";
+                color: $m;
+                position: absolute;
+                left: -10px;
+                top: 2px;
+            }
         }
-    
-        
+
+
 
         .wrap {
             display: flex;
@@ -855,7 +855,7 @@
         margin-top: 80px;
 
         img {
-        border-radius: 20px;            
+            border-radius: 20px;
         }
 
     }
@@ -1032,7 +1032,83 @@
     }
 
     .review {
+        margin-top: 60px;
         padding-bottom: 60px;
+        position: relative;
+
+        button {
+            position: absolute;
+            top: -10px;
+            right: 0;
+            height: 38px;
+            padding: 0 13px 1px;
+            border-radius: 6px;
+            font-size: 13px;
+            line-height: 19px;
+            color: #fff;
+            background: $g;
+            border: 1px solid $g;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 14px;
+                height: 18px;
+                margin-right: 3px;
+            }
+
+            &:hover {
+                border: 1px solid #85671d;
+                background-color: #85671d;
+            }
+        }
+
+        .grayBox {
+            margin-bottom: 30px;
+            background-color: #f7f7f7;
+            border: 1px solid #d5d5d5;
+            border-radius: 20px;
+            padding: 35px 49px;
+            display: flex;
+        }
+
+        .avg {
+            width: 50%;
+            height: 100%;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .responive {
+            width: 50%;
+            height: 100%;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                font-weight: 700;
+                color: $m;
+                position: relative;
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: 3px;
+                left: 0;                
+                width: 16px;
+                height: 16px;
+                background-image: url(../sub_img/quotes.png) 0% 0% no-repeat;
+                background-size: 16px 16px;
+            }
+            }
+
+
+        }
     }
 
     .infomation {
@@ -1078,10 +1154,10 @@
             }
 
             &:hover {
-                border: 1px solid #85671d;                
+                border: 1px solid #85671d;
                 background-color: #85671d;
             }
-            
+
         }
 
         .txt7Wrap {
@@ -1136,6 +1212,17 @@
     //상세페이지 오른쪽 탭
     .fieldtop {
         margin-bottom: 20px;
+        position: relative;
+
+        .add {
+            position: absolute;
+            top: 5px;
+            right: 0;
+            font-size: 13px;
+            font-weight: 500;
+            color: $c;
+            cursor: pointer;
+        }
 
         .bestBook {
             display: flex;
@@ -1152,44 +1239,73 @@
 
         .listWrap {
             margin-left: 20px;
-            
-          h5 {
-            font-size: 15px;
-            line-height: 23px;
-            letter-spacing: -0.01em;
-            font-weight: 500;
-          }
 
-          .pub {
-            margin-top: 5px;
-            font-size: 13px;
-            line-height: 19px;
-            color: $c;
-          }
+            span {
+                color: $f;
+                background: $h;
+                border: 1px solid $h;
+                width: 20px;
+                padding: 3px 2px 2px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 1;
+                border-radius: 6px 0;
+                display: inline-block;
+                box-sizing: border-box;
+                text-align: center;
+                vertical-align: top;
+                margin-bottom: 5px;
 
-          .list_price {
-            margin-top: 5px;
-            font-size: 13px;
-            line-height: 19px;
-            color: #000;
-            
-          }
+            }
 
-          .sale {
-            margin-top: 5px;
-            margin-right: 6px;
-            font-size: 13px;
-            line-height: 19px;
-            color: $m; 
-            float: left;
-            font-weight: 700;
-          }
+            h5 {
+                font-size: 15px;
+                line-height: 23px;
+                letter-spacing: -0.01em;
+                font-weight: 500;
+            }
+
+            .pub {
+                margin-top: 5px;
+                font-size: 13px;
+                line-height: 19px;
+                color: $c;
+            }
+
+            .list_price {
+                margin-top: 5px;
+                font-size: 13px;
+                line-height: 19px;
+                color: #000;
+
+            }
+
+            .sale {
+                margin-top: 5px;
+                margin-right: 6px;
+                font-size: 13px;
+                line-height: 19px;
+                color: $m;
+                float: left;
+                font-weight: 700;
+            }
 
         }
     }
 
     .newBook {
         margin-bottom: 20px;
+        position: relative;
+
+        .add {
+            position: absolute;
+            top: 5px;
+            right: 0;
+            font-size: 13px;
+            font-weight: 500;
+            color: $c;
+            cursor: pointer;
+        }
 
         .brandNew {
             display: flex;
@@ -1206,37 +1322,37 @@
 
         .listWrap {
             margin-left: 20px;
-            
-          h5 {
-            font-size: 15px;
-            line-height: 23px;
-            letter-spacing: -0.01em;
-            font-weight: 500;
-          }
 
-          .pub {
-            margin-top: 5px;
-            font-size: 13px;
-            line-height: 19px;
-            color: $c;
-          }
+            h5 {
+                font-size: 15px;
+                line-height: 23px;
+                letter-spacing: -0.01em;
+                font-weight: 500;
+            }
 
-          .list_price {
-            margin-top: 5px;
-            font-size: 13px;
-            line-height: 19px;
-            color: #000;
-          }
+            .pub {
+                margin-top: 5px;
+                font-size: 13px;
+                line-height: 19px;
+                color: $c;
+            }
 
-          .sale {
-            margin-top: 5px;
-            margin-right: 6px;
-            font-size: 13px;
-            line-height: 19px;
-            color: $m; 
-            float: left;
-            font-weight: 700;
-          }
+            .list_price {
+                margin-top: 5px;
+                font-size: 13px;
+                line-height: 19px;
+                color: #000;
+            }
+
+            .sale {
+                margin-top: 5px;
+                margin-right: 6px;
+                font-size: 13px;
+                line-height: 19px;
+                color: $m;
+                float: left;
+                font-weight: 700;
+            }
         }
     }
 
