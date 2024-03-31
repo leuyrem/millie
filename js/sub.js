@@ -30,12 +30,66 @@ var swiper2 = new Swiper(".mySwiper2", {
     },
 });
 
+
+//review
+// $('.reMenu li').click(function () {
+//     index = $(this).index();
+  
+//     $('.tab_sub ').eq(index).show().css('display','flex').siblings().hide();
+//     $(this).addClass("active").siblings().removeClass("active");
+//   });
+
+
 //more
-// $('.index').stop().hide();
-// $('.more').click(function () {
-//   $(this).find('.more').toggleClass('rotate');
-//   $(this).siblings().slideToggle();
-// });
+//목차
+    $('.index .show').click(function(){
+      $('.txt3Wrap').animate({height : '380px'}, 800);
+      $('.index .show').hide();
+      $('.index .hide').show();
+    });
+    $('.index .hide').click(function(){
+      $('.txt3Wrap').animate({height : '150px'}, 500);
+      $('.index .hide').hide();
+      $('.index .show').show();
+    });
+
+
+  //추천사
+  $('.recommend .show').click(function(){
+    $('.txt4Wrap').animate({height : '320px'}, 800);
+    $('.recommend .show').hide();
+    $('.recommend .hide').show();
+  });
+  $('.recommend .hide').click(function(){
+    $('.txt4Wrap').animate({height : '150px'}, 500);
+    $('.recommend .hide').hide();
+    $('.recommend .show').show();
+  });
+
+  //책속으로
+  $('.bookin .show').click(function(){
+    $('.txt5Wrap').animate({height : '600px'}, 800);
+    $('.bookin .show').hide();
+    $('.bookin .hide').show();
+  });
+  $('.bookin .hide').click(function(){
+    $('.txt5Wrap').animate({height : '230px'}, 500);
+    $('.bookin .hide').hide();
+    $('.bookin .show').show();
+  });
+
+  //출판사 서평
+  $('.publisher .show').click(function(){
+    $('.txt6Wrap').animate({height : '700px'}, 800);
+    $('.publisher .show').hide();
+    $('.publisher .hide').show();
+  });
+  $('.publisher .hide').click(function(){
+    $('.txt6Wrap').animate({height : '150px'}, 500);
+    $('.publisher .hide').hide();
+    $('.publisher .show').show();
+  });
+
 
 
 

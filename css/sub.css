@@ -293,7 +293,6 @@ a {
   width: 30px;
   height: 100%;
   position: absolute;
-  background-position: in;
   background-image: url(../sub_img/cover2.jpg);
   background-size: cover;
   background-position: center;
@@ -883,6 +882,8 @@ a {
   font-size: 14px;
   line-height: 22px;
   letter-spacing: -0.01em;
+  height: 150px;
+  overflow: hidden;
 }
 #contents .recommend {
   padding-bottom: 60px;
@@ -890,6 +891,8 @@ a {
 }
 #contents .recommend .txt4Wrap {
   font-size: 15px;
+  height: 150px;
+  overflow: hidden;
 }
 #contents .recommend .txt4Wrap span {
   color: #474c98;
@@ -906,6 +909,8 @@ a {
 #contents .bookin .txt5Wrap {
   font-size: 15px;
   color: #555;
+  height: 230px;
+  overflow: hidden;
 }
 #contents .publisher {
   padding-bottom: 60px;
@@ -914,6 +919,8 @@ a {
 #contents .publisher .txt6Wrap {
   font-size: 15px;
   color: #555;
+  height: 150px;
+  overflow: hidden;
 }
 #contents .publisher .txt6Wrap .letter {
   text-align: justify;
@@ -959,10 +966,59 @@ a {
 #contents .review .avg {
   width: 50%;
   height: 100%;
-  background-color: aquamarine;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background-color: lightcoral;
+}
+#contents .review .avg .titbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contents .review .avg .bar_wrap {
+  margin-top: 28px;
+}
+#contents .review .avg .bar1 {
+  margin-left: 8px;
+}
+#contents .review .avg .score {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#contents .review .avg .star_xs {
+  width: 75px;
+  display: flex;
+  margin-right: 10px;
+}
+#contents .review .avg .star_xs .fa-star {
+  margin-right: 4px;
+}
+#contents .review .avg .graph {
+  position: relative;
+  flex: 0 0 160px;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+  margin: 0 12px;
+  top: 10px;
+}
+#contents .review .avg .graph .inner_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 93%;
+  height: 4px;
+  border-radius: 2px;
+  color: #ffe04b;
+}
+#contents .review .avg .percent {
+  font-size: 13px;
+  color: #555;
 }
 #contents .review .responive {
   width: 50%;
@@ -971,6 +1027,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #contents .review .responive span {
   font-weight: 700;
@@ -980,12 +1037,62 @@ a {
 #contents .review .responive span:before {
   content: "";
   position: absolute;
-  top: 3px;
-  left: 0;
+  top: 4px;
+  left: -20px;
   width: 16px;
   height: 16px;
-  background-image: url(../sub_img/quotes.png) 0% 0% no-repeat;
+  background-image: url(../sub_img/quotes.png);
   background-size: 16px 16px;
+}
+#contents .review .responive .score2 {
+  display: flex;
+  margin-top: 25px;
+}
+#contents .review .responive .col {
+  margin-right: 12px;
+}
+#contents .review .responive .percent {
+  height: 19px;
+  font-size: 13px;
+  line-height: 19px;
+  display: inline-block;
+  position: relative;
+  min-width: 38px;
+  padding: 0 7px;
+  margin-bottom: 9px;
+  color: #555;
+  border-radius: 10px;
+}
+#contents .review .responive .text {
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  margin-top: 6px;
+  text-align: center;
+  color: #767676;
+}
+#contents .review .responive .graph {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 6px;
+  height: 62px;
+  margin: 0 auto;
+  background-color: #eaeaea;
+  border-radius: 3px;
+}
+#contents .review .reMenu {
+  display: flex;
+}
+#contents .review .review_list {
+  display: block;
+  border-bottom: 1px solid #eaeaea;
+}
+#contents .review .review_list .review_item {
+  display: block;
+  position: relative;
+  padding: 20px 10px;
 }
 #contents .infomation {
   position: relative;
@@ -1188,6 +1295,42 @@ a {
   color: #474c98;
   float: left;
   font-weight: 700;
+}
+#contents .slideBtn {
+  width: 10%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#contents .text {
+  color: #555;
+  font-size: 15px;
+  margin-right: 5px;
+}
+#contents .text:hover {
+  text-decoration: underline;
+}
+#contents .show .arrowDown {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../sub_img/more.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+#contents .hide {
+  display: none;
+}
+#contents .hide .arrowDown {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../sub_img/more_up.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
 }
 
 #bottom_tab {

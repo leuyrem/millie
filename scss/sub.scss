@@ -281,7 +281,6 @@
                     width: 30px;
                     height: 100%;
                     position: absolute;
-                    background-position: in;
                     background-image: url(../sub_img/cover2.jpg);
                     background-size: cover;
                     background-position: center;
@@ -693,8 +692,6 @@
             }
         }
 
-
-
         .wrap {
             display: flex;
             justify-content: flex-start;
@@ -985,6 +982,8 @@
             font-size: 14px;
             line-height: 22px;
             letter-spacing: -0.01em;
+            height: 150px;
+            overflow: hidden;
         }
     }
 
@@ -994,6 +993,8 @@
 
         .txt4Wrap {
             font-size: 15px;
+            height: 150px;
+            overflow: hidden;
 
             span {
                 color: $m;
@@ -1014,6 +1015,8 @@
         .txt5Wrap {
             font-size: 15px;
             color: $c;
+            height: 230px;
+            overflow: hidden;
         }
     }
 
@@ -1024,6 +1027,8 @@
         .txt6Wrap {
             font-size: 15px;
             color: $c;
+            height: 150px;
+            overflow: hidden;
 
             .letter {
                 text-align: justify;
@@ -1076,10 +1081,68 @@
         .avg {
             width: 50%;
             height: 100%;
-            background-color: aquamarine;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            background-color: lightcoral;
+
+            .titbox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .bar_wrap {
+                margin-top: 28px;
+            }
+
+            .bar1 {
+                margin-left: 8px;
+            }
+
+            .score {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            .star_xs {
+                width: 75px;
+                display: flex;
+                margin-right: 10px;
+
+                .fa-star {
+                    margin-right: 4px;
+                }
+            }
+
+            .graph {
+                position: relative;
+                flex: 0 0 160px;
+                height: 4px;
+                background-color: rgba(0, 0, 0, 0.06);
+                border-radius: 2px;
+                margin: 0 12px;
+                top: 10px;
+
+                .inner_bar {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: inline-block;
+                    width: 93%;
+                    height: 4px;
+                    border-radius: 2px;
+                    color: $h;
+                }
+            }
+
+            .percent {
+                font-size: 13px;
+                color: $c;
+            }
         }
 
         .responive {
@@ -1089,25 +1152,87 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
 
             span {
                 font-weight: 700;
                 color: $m;
                 position: relative;
 
-            &:before {
-                content: "";
-                position: absolute;
-                top: 3px;
-                left: 0;                
-                width: 16px;
-                height: 16px;
-                background-image: url(../sub_img/quotes.png) 0% 0% no-repeat;
-                background-size: 16px 16px;
-            }
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 4px;
+                    left: -20px;
+                    width: 16px;
+                    height: 16px;
+                    background-image: url(../sub_img/quotes.png);
+                    background-size: 16px 16px;
+                }
             }
 
+            .score2 {
+                display: flex;
+                margin-top: 25px;
+            }
 
+            .col {
+                margin-right: 12px;
+            }
+
+            .percent {
+                height: 19px;
+                font-size: 13px;
+                line-height: 19px;
+                display: inline-block;
+                position: relative;
+                min-width: 38px;
+                padding: 0 7px;
+                margin-bottom: 9px;
+                color: $c;
+                border-radius: 10px;
+            }
+
+            .text {
+                display: block;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: -0.01em;
+                margin-top: 6px;
+                text-align: center;
+                color: $k;
+            }
+
+            .graph {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                width: 6px;
+                height: 62px;
+                margin: 0 auto;
+                background-color: $j;
+                border-radius: 3px;
+            }
+        }
+
+        .tab_wrap {
+            
+        }
+
+        .reMenu {
+            display: flex;
+            
+        }
+
+        .review_list {
+            display: block;
+            border-bottom: 1px solid $j;
+
+            .review_item {
+                display: block;
+                position: relative;
+                padding: 20px 10px;
+            }
         }
     }
 
@@ -1355,6 +1480,48 @@
             }
         }
     }
+
+    //슬라이드 토글
+    .slideBtn {
+        width: 10%;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+      
+      .text {
+        color: $c;
+        font-size: 15px;
+        margin-right: 5px;
+      }
+      .text:hover {
+        text-decoration: underline;
+      }
+      
+      .show .arrowDown {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background-image: url(../sub_img/more.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+      }
+      
+      .hide {
+        display: none;
+      }
+      .hide .arrowDown {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background-image: url(../sub_img/more_up.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+      }
+      
 
 }
 
