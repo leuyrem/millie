@@ -165,9 +165,9 @@
     <!-- 상세페이지 탭 -->
     <div class="sub_top_menu">
         <ul>
-            <li><a href="#">상품정보</a></li>
-            <li><a href="#">리뷰 (47)</a></li>
-            <li><a href="#">교환/반품/품절</a></li>
+            <li><a href="#bookcard">상품정보</a></li>
+            <li><a href="#review">리뷰 (47)</a></li>
+            <li><a href="#infomation">교환/반품/품절</a></li>
         </ul>
     </div>
 
@@ -190,7 +190,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bookcard">
+            <div id="bookcard">
                 <h2>북카드</h2>
                 <div class="swiper mySwiper1">
                     <div class="swiper-wrapper">
@@ -313,10 +313,10 @@
                     <div class="hide">
                         <span class="text">접기</span><span class="arrowDown"></span>
                     </div>
-                </div>                
+                </div>
             </div>
 
-            <div class="review">
+            <div id="review">
                 <h2>리뷰 (47)</h2>
                 <button><img src="sub_img/review.png" alt="review">리뷰 작성</button>
                 <div class="grayBox">
@@ -411,25 +411,254 @@
                 </div>
                 <div class="tab_wrap">
                     <div class="tab_list_wrap">
-                        <ul class="tabs">
-                            <li class="active"><a href="#">전체 리뷰</a></li>
-                            <li><a href="#">구매 리뷰</a></li>
-                        </ul>
+                        <div class="tabs">전체 리뷰</div>
+                        <select name="order" class="order_list">
+                            <option value="newdata">최신 순</option>
+                            <option value="like" selected="selected">좋아요 순</option>
+                        </select>
                     </div>
-                <div class="review_wrap">
-                    <div class="review_list">
-                        <div class="review_item">
-                        <div class="re_header"></div>
-                        <div class="re_content"></div>
-                        <div class="re_footer"></div>                            
+
+                    <div class="review_wrap">
+                        <div class="review_list">
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>mn****</li>
+                                        <li>|</li>
+                                        <li>2024.03.12</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>이 책이 재출간 됐군요. 너무 좋아해서 몇권씩 사서 지인들한테 선물했던기억이 있는데 반가워요. 진짜인생책!</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>16</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>12****</li>
+                                        <li>|</li>
+                                        <li>2024.03.12</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>무작정 바쁘게만 살아 왔는데, 그러다 보니 놓친게 넘 많은 것 같네요. 이 책을 읽으면서 앞으로 어떻게 살아야 할지 생각해 보고 싶어요.</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>10</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>ne******</li>
+                                        <li>|</li>
+                                        <li>2024.03.10</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>오래전 너무나 인상깊게 읽었던 책인데 정말 반갑네요. 지금의 나이에 다시 읽으면 그때는 알지 못했던 깨달음을 얻을 수 있겠지요. 무척 기대가
+                                        됩니다.</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>10</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>sh********</li>
+                                        <li>|</li>
+                                        <li>2024.02.25</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>책 제목을 보고 한참 생각했어요. 요즘 보석 같은 책들이 다시 나오고 있던데, 그중에서도 이 책이 가장 기대되네요!</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>9</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>an********</li>
+                                        <li>|</li>
+                                        <li>2024.02.26</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>정말 정말 재밌었어요</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>8</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>ks*****</li>
+                                        <li>|</li>
+                                        <li>2024.03.11</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>추천합니다~~~~~~~</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>7</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review_item">
+                                <div class="re_header">
+                                    <ul>
+                                        <li class="paper">종이책</li>
+                                        <li>kd*****</li>
+                                        <li>|</li>
+                                        <li>2024.02.27</li>
+                                        <li>|</li>
+                                        <li>신고/차단</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><i class="fa-solid fa-star" style="color: #ffe04b;"></i></li>
+                                        <li><img class="slash" src="sub_img/slash.png" alt="slash"></li>
+                                        <div class="help"><img src="sub_img/quotes.png" alt="quotes"> 도움돼요</div>
+                                    </ul>
+                                </div>
+                                <div class="re_content">
+                                    <p>다들 추천하시기에 사봤어요</p>
+                                </div>
+                                <div class="re_footer">
+                                    <div class="good">
+                                        <img src="sub_img/like.png" alt="like">
+                                        <span>6</span>
+                                    </div>
+                                    <div class="re_ply">
+                                        <img src="sub_img/reply.png" alt="reply">
+                                        <span>답글 0</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>                    
                 </div>
 
             </div>
 
-            <div class="infomation">
+            <div id="infomation">
                 <h2>교환/반품/품절 안내</h2>
                 <button class="lbtn">반품/교환 신청</button>
                 <button class="rbtn"><img src="sub_img/inquiry.png" alt="inquiry">1:1 문의</button>
@@ -483,11 +712,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <div id="footer">
         <footer>

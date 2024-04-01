@@ -721,7 +721,7 @@
         }
     }
 
-    .bookcard {
+    #bookcard {
         height: 100%;
         margin-bottom: 50px;
 
@@ -1036,7 +1036,7 @@
         }
     }
 
-    .review {
+    #review {
         margin-top: 60px;
         padding-bottom: 60px;
         position: relative;
@@ -1127,16 +1127,19 @@
                 margin: 0 12px;
                 top: 10px;
 
-                .inner_bar {
-                    position: absolute;
+                &::after {
+                      position: absolute;
                     top: 0;
                     left: 0;
-                    display: inline-block;
+                    // display: inline-block;
                     width: 93%;
                     height: 4px;
                     border-radius: 2px;
-                    color: $h;
+                    background-color: $h;
                 }
+                // .inner_bar {
+                  
+                // }
             }
 
             .percent {
@@ -1216,27 +1219,139 @@
         }
 
         .tab_wrap {
-            
-        }
 
-        .reMenu {
-            display: flex;
-            
-        }
+            .tab_list_wrap {
+                display: flex;
+                justify-content: space-between;
+            }
 
-        .review_list {
-            display: block;
-            border-bottom: 1px solid $j;
+            .tabs {
+                display: flex;
+                margin-bottom: 20px;
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 700;
+                margin-left: 10px;
+            }
 
-            .review_item {
+            .order_list {
+                display: inline-block;
+                margin: 0;
+                padding: 0 14px;
+                background-color: #fff;
+                border: 1px solid #d5d5d5;
+                border-radius: 6px;
+                box-sizing: border-box;
+                width: 120px;
+                height: 38px;
+            }
+
+            .review_list {
                 display: block;
-                position: relative;
-                padding: 20px 10px;
+                border-bottom: 1px solid $j;
+
+                .review_item {
+                    display: block;
+                    position: relative;
+                    padding: 0px 10px;
+                }
+
+                .re_header {
+                    border-top: 1px solid $j;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .re_header ul {
+                    display: flex;
+                    padding: 20px 0;
+                }
+
+                .re_header li {
+                    color: $k;
+                    font-size: 12px;
+                    font-weight: 500;
+                    margin-right: 6px;
+                }
+
+                .paper {
+                    padding: 3px 7px;
+                    border-radius: 20px;
+                    line-height: 1;
+                    border: 1px solid transparent;
+                    background: rgba(23, 23, 237, 0.1);
+                    text-align: center;
+                }
+
+                .slash {
+                    width: 4px;
+                    height: 8px;
+                    margin: 6px 6px 0;
+                }
+
+                .help {
+                    color: $m;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                    img {
+                        width: 13px;
+                        height: 13px;
+                        vertical-align: top;
+                        margin-top: 3px;
+                    }
+                }
+
+                .re_content {
+                    font-size: 14px;
+                    max-height: 66px;
+                    line-height: 22px;
+                }
+
+                .re_footer {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin: 20px 0;
+                }
+
+                .good {
+                    font-size: 13px;
+                    line-height: 19px;
+                    letter-spacing: -0.01em;
+                    margin-right: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 2px;
+                    }
+                }
+
+                .re_ply {
+                    font-size: 13px;
+                    line-height: 19px;
+                    letter-spacing: -0.01em;
+                    color: $k;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 5px;
+                    }
+                }
             }
         }
+
+
     }
 
-    .infomation {
+    #infomation {
         position: relative;
 
         .lbtn {
@@ -1486,18 +1601,19 @@
         width: 10%;
         margin-top: 30px;
         cursor: pointer;
-      }
-      
-      .text {
+    }
+
+    .text {
         color: $c;
         font-size: 15px;
         margin-right: 5px;
-      }
-      .text:hover {
+    }
+
+    .text:hover {
         text-decoration: underline;
-      }
-      
-      .show .arrowDown {
+    }
+
+    .show .arrowDown {
         width: 18px;
         height: 18px;
         display: inline-block;
@@ -1506,12 +1622,13 @@
         background-repeat: no-repeat;
         background-size: cover;
         vertical-align: middle;
-      }
-      
-      .hide {
+    }
+
+    .hide {
         display: none;
-      }
-      .hide .arrowDown {
+    }
+
+    .hide .arrowDown {
         width: 18px;
         height: 18px;
         display: inline-block;
@@ -1520,8 +1637,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         vertical-align: middle;
-      }
-      
+    }
+
 
 }
 

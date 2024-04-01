@@ -31,15 +31,6 @@ var swiper2 = new Swiper(".mySwiper2", {
 });
 
 
-//review
-// $('.reMenu li').click(function () {
-//     index = $(this).index();
-  
-//     $('.tab_sub ').eq(index).show().css('display','flex').siblings().hide();
-//     $(this).addClass("active").siblings().removeClass("active");
-//   });
-
-
 //more
 //목차
     $('.index .show').click(function(){

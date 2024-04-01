@@ -664,16 +664,16 @@ a {
   width: 258px;
   border-radius: 16px;
 }
-#contents .bookcard {
+#contents #bookcard {
   height: 100%;
   margin-bottom: 50px;
 }
-#contents .bookcard .swiper {
+#contents #bookcard .swiper {
   width: 105%;
   height: 50%;
   margin-left: -20px;
 }
-#contents .bookcard .swiper .swiper-slide {
+#contents #bookcard .swiper .swiper-slide {
   font-size: 18px;
   background: transparent;
   display: flex;
@@ -681,40 +681,40 @@ a {
   align-items: center;
   cursor: grab;
 }
-#contents .bookcard .swiper .swiper-slide img {
+#contents #bookcard .swiper .swiper-slide img {
   display: block;
   width: 397px;
   height: 397px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#contents .bookcard .swiper-button-next {
+#contents #bookcard .swiper-button-next {
   width: 50px;
   height: 50px;
   border-radius: 100px;
   background-color: rgba(51, 51, 51, 0.5);
   color: #ffffff;
 }
-#contents .bookcard .swiper-button-next:after {
+#contents #bookcard .swiper-button-next:after {
   font-size: 20px;
   margin-left: 5px;
   font-weight: 700;
 }
-#contents .bookcard .swiper-button-next:hover {
+#contents #bookcard .swiper-button-next:hover {
   background-color: #aa8525;
 }
-#contents .bookcard .swiper-button-prev {
+#contents #bookcard .swiper-button-prev {
   width: 50px;
   height: 50px;
   border-radius: 100px;
   background-color: rgba(51, 51, 51, 0.5);
   color: #ffffff;
 }
-#contents .bookcard .swiper-button-prev:after {
+#contents #bookcard .swiper-button-prev:after {
   font-size: 20px;
   font-weight: 700;
 }
-#contents .bookcard .swiper-button-prev:hover {
+#contents #bookcard .swiper-button-prev:hover {
   background-color: #aa8525;
 }
 #contents .together {
@@ -925,12 +925,12 @@ a {
 #contents .publisher .txt6Wrap .letter {
   text-align: justify;
 }
-#contents .review {
+#contents #review {
   margin-top: 60px;
   padding-bottom: 60px;
   position: relative;
 }
-#contents .review button {
+#contents #review button {
   position: absolute;
   top: -10px;
   right: 0;
@@ -946,16 +946,16 @@ a {
   justify-content: center;
   align-items: center;
 }
-#contents .review button img {
+#contents #review button img {
   width: 14px;
   height: 18px;
   margin-right: 3px;
 }
-#contents .review button:hover {
+#contents #review button:hover {
   border: 1px solid #85671d;
   background-color: #85671d;
 }
-#contents .review .grayBox {
+#contents #review .grayBox {
   margin-bottom: 30px;
   background-color: #f7f7f7;
   border: 1px solid #d5d5d5;
@@ -963,7 +963,7 @@ a {
   padding: 35px 49px;
   display: flex;
 }
-#contents .review .avg {
+#contents #review .avg {
   width: 50%;
   height: 100%;
   display: flex;
@@ -972,32 +972,32 @@ a {
   flex-direction: column;
   background-color: lightcoral;
 }
-#contents .review .avg .titbox {
+#contents #review .avg .titbox {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#contents .review .avg .bar_wrap {
+#contents #review .avg .bar_wrap {
   margin-top: 28px;
 }
-#contents .review .avg .bar1 {
+#contents #review .avg .bar1 {
   margin-left: 8px;
 }
-#contents .review .avg .score {
+#contents #review .avg .score {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
-#contents .review .avg .star_xs {
+#contents #review .avg .star_xs {
   width: 75px;
   display: flex;
   margin-right: 10px;
 }
-#contents .review .avg .star_xs .fa-star {
+#contents #review .avg .star_xs .fa-star {
   margin-right: 4px;
 }
-#contents .review .avg .graph {
+#contents #review .avg .graph {
   position: relative;
   flex: 0 0 160px;
   height: 4px;
@@ -1006,21 +1006,20 @@ a {
   margin: 0 12px;
   top: 10px;
 }
-#contents .review .avg .graph .inner_bar {
+#contents #review .avg .graph::after {
   position: absolute;
   top: 0;
   left: 0;
-  display: inline-block;
   width: 93%;
   height: 4px;
   border-radius: 2px;
-  color: #ffe04b;
+  background-color: #ffe04b;
 }
-#contents .review .avg .percent {
+#contents #review .avg .percent {
   font-size: 13px;
   color: #555;
 }
-#contents .review .responive {
+#contents #review .responive {
   width: 50%;
   height: 100%;
   background-color: lightblue;
@@ -1029,12 +1028,12 @@ a {
   align-items: center;
   flex-direction: column;
 }
-#contents .review .responive span {
+#contents #review .responive span {
   font-weight: 700;
   color: #474c98;
   position: relative;
 }
-#contents .review .responive span:before {
+#contents #review .responive span:before {
   content: "";
   position: absolute;
   top: 4px;
@@ -1044,14 +1043,14 @@ a {
   background-image: url(../sub_img/quotes.png);
   background-size: 16px 16px;
 }
-#contents .review .responive .score2 {
+#contents #review .responive .score2 {
   display: flex;
   margin-top: 25px;
 }
-#contents .review .responive .col {
+#contents #review .responive .col {
   margin-right: 12px;
 }
-#contents .review .responive .percent {
+#contents #review .responive .percent {
   height: 19px;
   font-size: 13px;
   line-height: 19px;
@@ -1063,7 +1062,7 @@ a {
   color: #555;
   border-radius: 10px;
 }
-#contents .review .responive .text {
+#contents #review .responive .text {
   display: block;
   font-size: 12px;
   line-height: 18px;
@@ -1072,7 +1071,7 @@ a {
   text-align: center;
   color: #767676;
 }
-#contents .review .responive .graph {
+#contents #review .responive .graph {
   display: block;
   position: relative;
   overflow: hidden;
@@ -1082,22 +1081,119 @@ a {
   background-color: #eaeaea;
   border-radius: 3px;
 }
-#contents .review .reMenu {
+#contents #review .tab_wrap .tab_list_wrap {
   display: flex;
+  justify-content: space-between;
 }
-#contents .review .review_list {
+#contents #review .tab_wrap .tabs {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+#contents #review .tab_wrap .order_list {
+  display: inline-block;
+  margin: 0;
+  padding: 0 14px;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 120px;
+  height: 38px;
+}
+#contents #review .tab_wrap .review_list {
   display: block;
   border-bottom: 1px solid #eaeaea;
 }
-#contents .review .review_list .review_item {
+#contents #review .tab_wrap .review_list .review_item {
   display: block;
   position: relative;
-  padding: 20px 10px;
+  padding: 0px 10px;
 }
-#contents .infomation {
+#contents #review .tab_wrap .review_list .re_header {
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+#contents #review .tab_wrap .review_list .re_header ul {
+  display: flex;
+  padding: 20px 0;
+}
+#contents #review .tab_wrap .review_list .re_header li {
+  color: #767676;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 6px;
+}
+#contents #review .tab_wrap .review_list .paper {
+  padding: 3px 7px;
+  border-radius: 20px;
+  line-height: 1;
+  border: 1px solid transparent;
+  background: rgba(23, 23, 237, 0.1);
+  text-align: center;
+}
+#contents #review .tab_wrap .review_list .slash {
+  width: 4px;
+  height: 8px;
+  margin: 6px 6px 0;
+}
+#contents #review .tab_wrap .review_list .help {
+  color: #474c98;
+  font-size: 14px;
+  font-weight: 500;
+}
+#contents #review .tab_wrap .review_list .help img {
+  width: 13px;
+  height: 13px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+#contents #review .tab_wrap .review_list .re_content {
+  font-size: 14px;
+  max-height: 66px;
+  line-height: 22px;
+}
+#contents #review .tab_wrap .review_list .re_footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+#contents #review .tab_wrap .review_list .good {
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contents #review .tab_wrap .review_list .good img {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+#contents #review .tab_wrap .review_list .re_ply {
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  color: #767676;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contents #review .tab_wrap .review_list .re_ply img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+#contents #infomation {
   position: relative;
 }
-#contents .infomation .lbtn {
+#contents #infomation .lbtn {
   position: absolute;
   top: 0;
   right: 100px;
@@ -1109,10 +1205,10 @@ a {
   border-radius: 6px;
   cursor: pointer;
 }
-#contents .infomation .lbtn:hover {
+#contents #infomation .lbtn:hover {
   background-color: #f2f2f2;
 }
-#contents .infomation .rbtn {
+#contents #infomation .rbtn {
   position: absolute;
   top: 0;
   right: 0;
@@ -1128,30 +1224,30 @@ a {
   align-items: center;
   cursor: pointer;
 }
-#contents .infomation .rbtn img {
+#contents #infomation .rbtn img {
   width: 17px;
   height: 15px;
   margin-right: 3px;
 }
-#contents .infomation .rbtn:hover {
+#contents #infomation .rbtn:hover {
   border: 1px solid #85671d;
   background-color: #85671d;
 }
-#contents .infomation .txt7Wrap .info {
+#contents #infomation .txt7Wrap .info {
   padding: 30px 0;
   border-top: 1px solid #eaeaea;
 }
-#contents .infomation .txt7Wrap .info:first-child {
+#contents #infomation .txt7Wrap .info:first-child {
   border-top: 1px solid #000;
 }
-#contents .infomation .txt7Wrap h5 {
+#contents #infomation .txt7Wrap h5 {
   font-size: 15px;
   margin-bottom: 15px;
 }
-#contents .infomation .txt7Wrap p {
+#contents #infomation .txt7Wrap p {
   font-size: 14px;
 }
-#contents .infomation .txt7Wrap .graybox {
+#contents #infomation .txt7Wrap .graybox {
   margin-bottom: 60px;
   font-size: 13px;
   color: #555;
@@ -1161,7 +1257,7 @@ a {
   position: relative;
   padding-left: 30px;
 }
-#contents .infomation .txt7Wrap .graybox:before {
+#contents #infomation .txt7Wrap .graybox:before {
   content: "";
   display: block;
   position: absolute;
