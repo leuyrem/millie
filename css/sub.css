@@ -122,7 +122,7 @@ a {
   margin-bottom: 10px;
 }
 #main .main_page .box1 .publisher {
-  color: #555;
+  color: rgb(85, 85, 85);
   margin-bottom: 21px;
   line-height: 22px;
   letter-spacing: -0.01em;
@@ -170,7 +170,7 @@ a {
 #main .main_page .box1 .best .review_box .left .avg {
   font-size: 20px;
   font-weight: 700;
-  color: #ffe04b;
+  color: rgb(255, 224, 75);
 }
 #main .main_page .box1 .best .review_box .left .avg .fa-face-grin-stars {
   margin-right: 10px;
@@ -204,7 +204,7 @@ a {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 7px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #main .main_page .box1 .best .review_box .right .add {
   font-size: 12px;
@@ -229,7 +229,7 @@ a {
 }
 #main .main_page .box1 .best .basic_info .base li {
   font-size: 13px;
-  color: #555;
+  color: rgb(85, 85, 85);
   margin: 5px 0;
   position: relative;
 }
@@ -261,7 +261,7 @@ a {
   font-weight: 500;
 }
 #main .box2 .text_wrap p {
-  color: #767676;
+  color: rgb(118, 118, 118);
   font-weight: 500;
 }
 #main .box2 .book_wrap {
@@ -359,7 +359,7 @@ a {
   min-height: 22px;
   padding: 1px 5px;
   border-radius: 4px;
-  color: #767676;
+  color: rgb(118, 118, 118);
 }
 #main .box3 .money .money_wrap {
   display: flex;
@@ -367,7 +367,7 @@ a {
 #main .box3 .money .money_wrap .percent {
   display: inline-block;
   margin-right: 6px;
-  color: #aa8525;
+  color: rgb(170, 133, 37);
   font-size: 24px;
   line-height: 36px;
   font-weight: 700;
@@ -386,7 +386,7 @@ a {
 #main .box3 .money .money_wrap .sale {
   display: inline-block;
   margin-top: 7px;
-  color: #767676;
+  color: rgb(118, 118, 118);
   font-size: 14px;
   line-height: 22px;
   vertical-align: bottom;
@@ -416,7 +416,7 @@ a {
   font-weight: 700;
   letter-spacing: -0.01em;
   vertical-align: top;
-  color: #aa8525;
+  color: rgb(170, 133, 37);
 }
 #main .box3 .point img {
   width: 23px;
@@ -460,7 +460,7 @@ a {
   border-radius: 20px;
   font-weight: 400;
   font-size: 12px;
-  color: #474c98;
+  color: rgb(71, 76, 152);
   border: 1px solid #ededf7;
   background: #ededf7;
   text-align: center;
@@ -484,7 +484,7 @@ a {
 #main .box3 .delivery .line3 .address {
   font-size: 14px;
   line-height: 22px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #main .box3 .delivery .line3 .chan {
   height: 24px;
@@ -515,10 +515,10 @@ a {
 #main .box3 .alram .apply .txt {
   font-size: 13px;
   line-height: 19px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #main .box3 .alram .apply .alr {
-  color: #474c98;
+  color: rgb(71, 76, 152);
   border: 1px solid #5055b1;
   background-color: #fff;
   height: 30px;
@@ -537,7 +537,7 @@ a {
 }
 #main .box3 .alram .apply .alr:hover {
   background: #ededf7;
-  border-color: #474c98;
+  border-color: rgb(71, 76, 152);
   cursor: pointer;
 }
 #main .box3 .alram .map {
@@ -593,7 +593,7 @@ a {
   color: #242424;
 }
 .sub_top_menu ul li a:hover {
-  color: #aa8525;
+  color: rgb(170, 133, 37);
 }
 
 #contents {
@@ -630,14 +630,14 @@ a {
 }
 #contents .event .add {
   font-size: 13px;
-  color: #555;
+  color: rgb(85, 85, 85);
   position: absolute;
   top: 0;
   right: 0;
 }
 #contents .event .add:before {
   content: "*";
-  color: #474c98;
+  color: rgb(71, 76, 152);
   position: absolute;
   left: -10px;
   top: 2px;
@@ -701,7 +701,7 @@ a {
   font-weight: 700;
 }
 #contents #bookcard .swiper-button-next:hover {
-  background-color: #aa8525;
+  background-color: rgb(170, 133, 37);
 }
 #contents #bookcard .swiper-button-prev {
   width: 50px;
@@ -715,7 +715,7 @@ a {
   font-weight: 700;
 }
 #contents #bookcard .swiper-button-prev:hover {
-  background-color: #aa8525;
+  background-color: rgb(170, 133, 37);
 }
 #contents .together {
   margin-bottom: 50px;
@@ -747,7 +747,7 @@ a {
 #contents .together .swiper .swiper-slide p {
   width: 116px;
   font-size: 13px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents .together .swiper .swiper-slide p:nth-of-type(1) {
   margin-top: 5px;
@@ -788,7 +788,7 @@ a {
 #contents .bookintro .b_Intro ul {
   display: flex;
   margin-bottom: 40px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents .bookintro .b_Intro li {
   line-height: 19px;
@@ -808,7 +808,7 @@ a {
   margin-bottom: 20px;
 }
 #contents .bookintro .txt1Wrap p {
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents .writer {
   margin-bottom: 60px;
@@ -840,14 +840,14 @@ a {
   letter-spacing: -0.01em;
   padding: 7px 16px 8px;
   border-radius: 20px;
-  color: #555;
+  color: rgb(85, 85, 85);
   background-color: #fff;
   border: 1px solid #fff;
   margin-bottom: 15px;
 }
 #contents .writer .txt2Wrap p {
   font-size: 15px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents .writer .txt2Wrap button {
   float: right;
@@ -878,7 +878,7 @@ a {
   border-bottom: 1px solid #eaeaea;
 }
 #contents .index .txt3Wrap {
-  color: #555;
+  color: rgb(85, 85, 85);
   font-size: 14px;
   line-height: 22px;
   letter-spacing: -0.01em;
@@ -895,10 +895,10 @@ a {
   overflow: hidden;
 }
 #contents .recommend .txt4Wrap span {
-  color: #474c98;
+  color: rgb(71, 76, 152);
 }
 #contents .recommend .txt4Wrap p {
-  color: #555;
+  color: rgb(85, 85, 85);
   margin-top: 13px;
   margin-bottom: 20px;
 }
@@ -908,7 +908,7 @@ a {
 }
 #contents .bookin .txt5Wrap {
   font-size: 15px;
-  color: #555;
+  color: rgb(85, 85, 85);
   height: 230px;
   overflow: hidden;
 }
@@ -918,7 +918,7 @@ a {
 }
 #contents .publisher .txt6Wrap {
   font-size: 15px;
-  color: #555;
+  color: rgb(85, 85, 85);
   height: 150px;
   overflow: hidden;
 }
@@ -940,8 +940,8 @@ a {
   font-size: 13px;
   line-height: 19px;
   color: #fff;
-  background: #aa8525;
-  border: 1px solid #aa8525;
+  background: rgb(170, 133, 37);
+  border: 1px solid rgb(170, 133, 37);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -988,7 +988,7 @@ a {
 #contents #review .avg .titbox .point_color {
   font-size: 20px;
   letter-spacing: -0.01em;
-  color: #ffe04b;
+  color: rgb(255, 224, 75);
   font-weight: 700;
 }
 #contents #review .avg .titbox span {
@@ -1036,7 +1036,7 @@ a {
   width: 93%;
   height: 4px;
   border-radius: 2px;
-  background-color: #ffe04b;
+  background-color: rgb(255, 224, 75);
 }
 #contents #review .avg .bars2::after {
   content: "";
@@ -1051,7 +1051,7 @@ a {
 }
 #contents #review .avg .percent {
   font-size: 13px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents #review .responive {
   width: 50%;
@@ -1069,7 +1069,7 @@ a {
 }
 #contents #review .responive span {
   font-weight: 700;
-  color: #474c98;
+  color: rgb(71, 76, 152);
   position: relative;
 }
 #contents #review .responive span:before {
@@ -1126,7 +1126,7 @@ a {
   min-width: 38px;
   padding: 0 7px;
   margin-bottom: 9px;
-  color: #555;
+  color: rgb(85, 85, 85);
   border-radius: 10px;
   margin-left: 5px;
 }
@@ -1137,7 +1137,7 @@ a {
   letter-spacing: -0.01em;
   margin-top: 6px;
   text-align: center;
-  color: #767676;
+  color: rgb(118, 118, 118);
 }
 #contents #review .responive .graph {
   position: relative;
@@ -1167,7 +1167,7 @@ a {
   width: 6px;
   height: 39%;
   border-radius: 2px;
-  background-color: #474c98;
+  background-color: rgb(71, 76, 152);
 }
 #contents #review .responive .bar3::after {
   content: "";
@@ -1244,7 +1244,7 @@ a {
   padding: 20px 0;
 }
 #contents #review .tab_wrap .review_list .re_header li {
-  color: #767676;
+  color: rgb(118, 118, 118);
   font-size: 12px;
   font-weight: 500;
   margin-right: 6px;
@@ -1263,7 +1263,7 @@ a {
   margin: 6px 6px 0;
 }
 #contents #review .tab_wrap .review_list .help {
-  color: #474c98;
+  color: rgb(71, 76, 152);
   font-size: 14px;
   font-weight: 500;
 }
@@ -1301,7 +1301,7 @@ a {
   font-size: 13px;
   line-height: 19px;
   letter-spacing: -0.01em;
-  color: #767676;
+  color: rgb(118, 118, 118);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1335,8 +1335,8 @@ a {
   right: 0;
   font-size: 13px;
   color: #fff;
-  border: 1px solid #aa8525;
-  background-color: #aa8525;
+  border: 1px solid rgb(170, 133, 37);
+  background-color: rgb(170, 133, 37);
   height: 38px;
   padding: 0 13px 1px;
   border-radius: 6px;
@@ -1371,7 +1371,7 @@ a {
 #contents #infomation .txt7Wrap .graybox {
   margin-bottom: 60px;
   font-size: 13px;
-  color: #555;
+  color: rgb(85, 85, 85);
   padding: 24px 0;
   background-color: #f7f7f7;
   border-radius: 10px;
@@ -1399,7 +1399,7 @@ a {
   right: 0;
   font-size: 13px;
   font-weight: 500;
-  color: #555;
+  color: rgb(85, 85, 85);
   cursor: pointer;
 }
 #contents .fieldtop .bestBook {
@@ -1418,8 +1418,8 @@ a {
 }
 #contents .fieldtop .listWrap span {
   color: #fff;
-  background: #ffe04b;
-  border: 1px solid #ffe04b;
+  background: rgb(255, 224, 75);
+  border: 1px solid rgb(255, 224, 75);
   width: 20px;
   padding: 3px 2px 2px;
   font-size: 12px;
@@ -1442,7 +1442,7 @@ a {
   margin-top: 5px;
   font-size: 13px;
   line-height: 19px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents .fieldtop .listWrap .list_price {
   margin-top: 5px;
@@ -1455,7 +1455,7 @@ a {
   margin-right: 6px;
   font-size: 13px;
   line-height: 19px;
-  color: #474c98;
+  color: rgb(71, 76, 152);
   float: left;
   font-weight: 700;
 }
@@ -1469,7 +1469,7 @@ a {
   right: 0;
   font-size: 13px;
   font-weight: 500;
-  color: #555;
+  color: rgb(85, 85, 85);
   cursor: pointer;
 }
 #contents .newBook .brandNew {
@@ -1496,7 +1496,7 @@ a {
   margin-top: 5px;
   font-size: 13px;
   line-height: 19px;
-  color: #555;
+  color: rgb(85, 85, 85);
 }
 #contents .newBook .listWrap .list_price {
   margin-top: 5px;
@@ -1509,7 +1509,7 @@ a {
   margin-right: 6px;
   font-size: 13px;
   line-height: 19px;
-  color: #474c98;
+  color: rgb(71, 76, 152);
   float: left;
   font-weight: 700;
 }
@@ -1519,7 +1519,7 @@ a {
   cursor: pointer;
 }
 #contents .text {
-  color: #555;
+  color: rgb(85, 85, 85);
   font-size: 15px;
   margin-right: 5px;
 }
@@ -1631,24 +1631,24 @@ a {
 }
 #bottom_tab .right_area .cart {
   width: 120px;
-  border: 1px solid #aa8525;
+  border: 1px solid rgb(170, 133, 37);
   border-radius: 6px;
   background-color: #fff;
   text-align: center;
   font-weight: 700;
-  color: #aa8525;
+  color: rgb(170, 133, 37);
   padding-top: 12px;
   margin-left: 6px;
 }
 #bottom_tab .right_area .cart:hover {
-  background: #aa8525;
+  background: rgb(170, 133, 37);
   opacity: 0.3;
   color: #fff;
   cursor: pointer;
 }
 #bottom_tab .right_area .two_btns {
   width: 240px;
-  border: 1px solid #aa8525;
+  border: 1px solid rgb(170, 133, 37);
   border-radius: 6px;
   background-color: #fff;
   text-align: center;
@@ -1659,17 +1659,17 @@ a {
 #bottom_tab .right_area .two_btns .dream {
   width: 50%;
   padding-top: 12px;
-  color: #aa8525;
+  color: rgb(170, 133, 37);
 }
 #bottom_tab .right_area .two_btns .dream:hover {
-  background: #aa8525;
+  background: rgb(170, 133, 37);
   opacity: 0.3;
   color: #fff;
   cursor: pointer;
 }
 #bottom_tab .right_area .two_btns .buy {
   width: 50%;
-  background: #aa8525;
+  background: rgb(170, 133, 37);
   padding-top: 12px;
   color: #fff;
 }

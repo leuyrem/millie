@@ -102,7 +102,7 @@ nav a {
   margin: 20px;
 }
 nav a:hover {
-  color: #aa8525;
+  color: rgb(170, 133, 37);
 }
 nav button {
   border: none;
@@ -116,7 +116,7 @@ nav button {
   text-align: center;
 }
 nav button:hover {
-  color: #ffe04b;
+  color: rgb(255, 224, 75);
 }
 
 #footer {
@@ -211,5 +211,5 @@ nav button:hover {
   min-height: 56px;
 }
 .floating:hover {
-  color: #ffe04b;
+  color: rgb(255, 224, 75);
 }
