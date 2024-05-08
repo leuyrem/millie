@@ -64,6 +64,10 @@ a {
   font-weight: 900;
   src: url(AppleSDGothicNeoH.woff2) format("woff2");
 }
+body {
+  overflow-x: hidden;
+}
+
 #main .inner {
   width: 1440px;
   margin: 0 auto;

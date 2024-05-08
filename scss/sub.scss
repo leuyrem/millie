@@ -1,7 +1,9 @@
 @charset "utf-8";
-
 @import "reset", "fonts", "color";
 
+body {
+    overflow-x: hidden;
+}
 
 #main {
     .inner {
